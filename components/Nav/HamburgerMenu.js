@@ -136,10 +136,25 @@ const HamburgerMenu = () => {
             ></div>
           </button>
           {isOpen && (
-            <div className="fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-4 z-10">
-              <MenuItem text="Menu Item 1" sectionId="credits" />
-              <MenuItem text="Menu Item 2" sectionId="gear" />
-              <MenuItem text="Menu Item 3" sectionId="rates" />
+            <div
+              className="bg-blue-500 top inset-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-12 z-10"
+              //   style={{ margin: "auto", top: 0, left: 0, right: 0, bottom: 0 }}
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                height: "100vh",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              {/* <div className="bg-white bg-opacity-50 backdrop-blur-md backdrop-brightness-125 p-4 fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center space-y-4 z-10"> */}
+              <MenuItem text="Credits" sectionId="credits" />
+              <MenuItem text="Gear" sectionId="gear" />
+              <MenuItem text="Rates" sectionId="rates" />
             </div>
           )}
         </>
