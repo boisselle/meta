@@ -153,7 +153,13 @@ export default function Home() {
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
       <main>
-        <section id="credits" className="h-screen">
+        <section id="hero" className="h-screen">
+          {/* <Hero /> */}
+          <Hero imageUrl="/images/frosted_glass.png">
+            <h1 className="text-4xl font-bold">Welcome to my website</h1>
+          </Hero>
+        </section>
+        <section id="credits" className="">
           {/* Section 1 content */}
           <Credits />
         </section>
@@ -164,6 +170,7 @@ export default function Home() {
         <section id="rates" className="h-screen">
           {/* Section 3 content */}
           <Rates />
+          <Terms />
         </section>
         <section id="about" className="h-screen">
           {/* Section 3 content */}

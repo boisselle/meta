@@ -1,80 +1,3 @@
-// import { useState, useEffect } from "react";
-
-// const HamburgerMenu = () => {
-//   const [isOpen, setIsOpen] = useState(false);
-//   const [isMobile, setIsMobile] = useState(false);
-
-//   useEffect(() => {
-//     const handleResize = () => {
-//       setIsMobile(window.innerWidth < 768);
-//     };
-
-//     handleResize();
-//     window.addEventListener("resize", handleResize);
-//     return () => {
-//       window.removeEventListener("resize", handleResize);
-//     };
-//   }, []);
-
-//   return (
-//     <div className="relative w-full">
-//       {isMobile ? (
-//         // Hamburger menu for mobile
-//         <>
-//           <button
-//             onClick={() => setIsOpen(!isOpen)}
-//             className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 absolute top-0 right-0 mt-4 mr-4 z-20"
-//           >
-//             <div
-//               className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
-//                 isOpen ? "rotate-45" : ""
-//               }`}
-//             ></div>
-//             <div
-//               className={`hamburger-menu w-6 h-0.5 bg-black my-1 transition duration-200 ease-in-out ${
-//                 isOpen ? "opacity-0" : "opacity-100"
-//               }`}
-//             ></div>
-//             <div
-//               className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
-//                 isOpen ? "-rotate-45 mt-[-12px]" : ""
-//               }`}
-//             ></div>
-//           </button>
-//           {isOpen && (
-//             <div className="fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-4 z-10">
-//               <a href="#" className="text-2xl text-black hover:text-gray-600">
-//                 Menu Item 1
-//               </a>
-//               <a href="#" className="text-2xl text-black hover:text-gray-600">
-//                 Menu Item 2
-//               </a>
-//               <a href="#" className="text-2xl text-black hover:text-gray-600">
-//                 Menu Item 3
-//               </a>
-//             </div>
-//           )}
-//         </>
-//       ) : (
-//         // Menu items for larger screens
-//         <div className="flex items-center justify-end space-x-4">
-//           <a href="#" className="text-black hover:text-gray-600">
-//             Menu Item 1
-//           </a>
-//           <a href="#" className="text-black hover:text-gray-600">
-//             Menu Item 2
-//           </a>
-//           <a href="#" className="text-black hover:text-gray-600">
-//             Menu Item 3
-//           </a>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default HamburgerMenu;
-
 import { useState, useEffect } from "react";
 
 const HamburgerMenu = () => {
@@ -117,7 +40,8 @@ const HamburgerMenu = () => {
         <>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 absolute top-0 right-0 mt-4 mr-4 z-20"
+            // className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 absolute top-0 right-0 mt-4 mr-4 z-20"
+            className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg absolute top-0 right-0 mt-4 mr-4 z-20"
           >
             <div
               className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
@@ -155,6 +79,7 @@ const HamburgerMenu = () => {
               <MenuItem text="Credits" sectionId="credits" />
               <MenuItem text="Gear" sectionId="gear" />
               <MenuItem text="Rates" sectionId="rates" />
+              <MenuItem text="About" sectionId="about" />
             </div>
           )}
         </>
@@ -164,6 +89,7 @@ const HamburgerMenu = () => {
           <MenuItem text="Credits" sectionId="credits" />
           <MenuItem text="Gear" sectionId="gear" />
           <MenuItem text="Rates" sectionId="rates" />
+          <MenuItem text="About" sectionId="about" />
         </div>
       )}
     </div>
