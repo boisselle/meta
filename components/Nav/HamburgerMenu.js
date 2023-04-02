@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Logo from "./Logo/Logo";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,10 +35,12 @@ const HamburgerMenu = () => {
   );
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full px-16 py-6">
       {isMobile ? (
         // Hamburger menu for mobile
         <>
+          {/* <p>METAMORPH SOUND</p> */}
+          <Logo />
           <button
             onClick={() => setIsOpen(!isOpen)}
             // className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 absolute top-0 right-0 mt-4 mr-4 z-20"
@@ -85,12 +88,15 @@ const HamburgerMenu = () => {
         </>
       ) : (
         // Menu items for larger screens
-        <div className="flex items-center justify-end space-x-4">
-          <MenuItem text="Credits" sectionId="credits" />
-          <MenuItem text="Gear" sectionId="gear" />
-          <MenuItem text="Rates" sectionId="rates" />
-          <MenuItem text="About" sectionId="about" />
-        </div>
+        <>
+          <Logo />
+          <div className="flex items-center justify-end space-x-4">
+            <MenuItem text="Credits" sectionId="credits" />
+            <MenuItem text="Gear" sectionId="gear" />
+            <MenuItem text="Rates" sectionId="rates" />
+            <MenuItem text="About" sectionId="about" />
+          </div>
+        </>
       )}
     </div>
   );
