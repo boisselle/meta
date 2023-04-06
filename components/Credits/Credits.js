@@ -4,10 +4,10 @@ import Card from "../Card/Card";
 const Credits = () => {
   return (
     <div>
-      <h1>Credits</h1>
+      <h1 className="w-1/ text-4xl font-bold mx-auto">CREDITS</h1>
 
       <ul>
-        <Card>
+        <Card className="mt-6">
           <li>
             DOCUMENTARIES
             <ul>
@@ -45,7 +45,7 @@ const Credits = () => {
           </li>
         </Card>
 
-        <Card>
+        <Card className="mt-6">
           <li>
             CORPORATE
             <ul>
@@ -73,7 +73,7 @@ const Credits = () => {
           </li>
         </Card>
 
-        <Card>
+        <Card className="mt-6">
           <li>
             WEB
             <ul>
@@ -92,7 +92,7 @@ const Credits = () => {
           </li>
         </Card>
 
-        <Card>
+        <Card className="mt-6">
           <li>
             TELEVISION
             <ul>
@@ -120,7 +120,8 @@ const Credits = () => {
             </ul>
           </li>
         </Card>
-        <Card>
+
+        <Card className="mt-6">
           <li>
             NARRATIVE - Feature Length
             <ul>
@@ -131,7 +132,7 @@ const Credits = () => {
             </ul>
           </li>
         </Card>
-        <Card>
+        <Card className="mt-6">
           <li>
             NARRATIVE - Short
             <ul>
@@ -142,7 +143,7 @@ const Credits = () => {
             </ul>
           </li>
         </Card>
-        <Card>
+        <Card className="mt-6">
           <li>
             INDUSTRY QUALIFICATIONS
             <ul>

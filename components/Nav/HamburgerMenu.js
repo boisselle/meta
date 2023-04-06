@@ -64,7 +64,7 @@ const HamburgerMenu = () => {
           </button>
           {isOpen && (
             <div
-              className="bg-blue-500 top inset-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-12 z-10"
+              className="bg-blue-500 top inset-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-12 z-20"
               //   style={{ margin: "auto", top: 0, left: 0, right: 0, bottom: 0 }}
               style={{
                 position: "absolute",
@@ -89,11 +89,12 @@ const HamburgerMenu = () => {
       ) : (
         // Menu items for larger screens
         <>
-          <Logo />
-          <div className="flex items-center justify-end space-x-4">
+          {/* <Logo /> */}
+
+          <div className="flex items-center justify-end space-x-12 px-10">
             <MenuItem text="Credits" sectionId="credits" />
-            <MenuItem text="Gear" sectionId="gear" />
-            <MenuItem text="Rates" sectionId="rates" />
+            <MenuItem text="Gear & Rates" sectionId="gear" />
+            {/* <MenuItem text="Rates" sectionId="rates" /> */}
             <MenuItem text="About" sectionId="about" />
           </div>
         </>

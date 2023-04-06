@@ -12,9 +12,11 @@
 
 import React from "react";
 
-const Card = ({ children }) => {
+const Card = ({ className, children }) => {
   return (
-    <div className="w-[400px] md:w-[550px] lg:max-w-[480px] xl:max-w-[720px] 2xl:max-w-[720px] mx-auto rounded shadow-2xl-gradient">
+    <div
+      className={`w-[400px] md:w-[550px] lg:max-w-[480px] xl:max-w-[720px] 2xl:max-w-[720px] mx-auto rounded shadow-2xl-gradient ${className}`}
+    >
       {children}
     </div>
   );
