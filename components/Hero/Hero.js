@@ -15,17 +15,18 @@ import Image from "next/image";
 
 const Hero = ({ imageUrl, children }) => {
   return (
-    <div className="relative h-screen">
-      <Image
+    <div className="relative max-w-xl mx-auto h-screen">
+      {/* <Image
         src={imageUrl}
         alt="Background Image"
         layout="fill"
         objectFit="cover"
         quality={100}
-      />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      /> */}
+      {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
+      <div className="absolute inset-0 bg-white"></div>
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-center text-white">{children}</div>
+        <div className="text-center text-black">{children}</div>
       </div>
     </div>
   );

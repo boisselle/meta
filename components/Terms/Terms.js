@@ -3,7 +3,7 @@ import React from "react";
 const Terms = () => {
   return (
     <div>
-      <h1>Terms</h1>
+      <h1 className=" text-4xl m-4 font-bold mx-auto">Terms</h1>
       <ul>
         <li>
           Acknowledgement & Negotiations: Delivery & Receipt of this Rate Card

@@ -3,7 +3,7 @@ import React from "react";
 const Gear = () => {
   return (
     <div className="">
-      <h1 className="w-1/ text-4xl font-bold mx-auto"> Gear</h1>
+      <h1 className=" text-4xl font-bold mx-auto"> Gear</h1>
       <ul>
         <li>MIXER RECORDER</li>
         <li>x01 - Sound Devices 833</li>

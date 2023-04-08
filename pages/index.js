@@ -48,7 +48,7 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
-      <main>
+      <main className="max-w-5xl mx-auto">
         <section id="hero" className="h-screen">
           {/* <Hero /> */}
           <Hero imageUrl="/images/frosted_glass.png">
@@ -68,40 +68,33 @@ export default function Home({ images }) {
           </Hero>
         </section>
         <section id="credits" className="">
-          {/* Section 1 content */}
-          <ImageSlider images={images} />
+          {/* <ImageSlider images={images} /> */}
           <Credits />
         </section>
-        {/* <section id="gear" className="h-screen"> */}
-        <div className="container items-center justify-center mx-auto">
-          {/* <div className="min-h-screen md:flex items-center justify-center"> */}
-          <div>
-            <div className="md:flex">
-              <section className="p-12" id="gear">
-                {/* Section 2 content */}
-                <Gear />
-              </section>
-              <section className="p-12" id="rates">
-                {/* Section 3 content */}
-                <Rates />
-                <Terms />
-              </section>
-            </div>
+
+        {/* <div className="min-h-screen bg-gray-100 flex justify-center">
+          <div className="container mx-auto p-4 flex flex-col lg:flex-row lg:items-center lg:justify-center">
+            <section className="lg:self-center" id="rates">
+              <Rates />
+            </section>
+            <section className="lg:ml-4" id="gear">
+              <Gear />
+            </section>
+          </div>
+        </div> */}
+        <div className="w-full min-h-screen bg-gray-100 flex justify-center">
+          <div className="w-full container mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-center">
+            <section className="lg:self-center" id="rates">
+              <Rates />
+            </section>
+            <section className="lg:ml-4" id="gear">
+              <Gear />
+            </section>
           </div>
         </div>
-        {/* <div className="flex flex-col xl:flex-row items-center justify-center min-h-screen space-y-4 xl:space-y-0 xl:space-x-4 bg-gray-100">
-          <section id="gear">
-            {/* Section 2 content */}
-        {/* <Gear /> */}
-        {/* </section> */}
-        {/* <section id="rates"> */}
-        {/* Section 3 content */}
-        {/* <Rates /> */}
-        {/* <Terms /> */}
-        {/* </section> */}
-        {/* </div> */}
+
+        <Terms />
         <section id="about" className="h-screen">
-          {/* Section 3 content */}
           <About />
         </section>
       </main>

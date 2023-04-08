@@ -2,7 +2,11 @@ module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      space: {
+        "-1": "-3.25rem",
+      },
+    },
     screens: {
       md: "600px",
       lg: "800px",

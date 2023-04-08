@@ -3,7 +3,7 @@ import React from "react";
 const Rates = () => {
   return (
     <div>
-      <h1 className="w-1/ text-4xl font-bold mx-auto">Rates</h1>
+      <h1 className="text-4xl font-bold mx-auto">Rates</h1>
       <ul>
         <li>Basic BAG - $350/Day</li>
         <ul>

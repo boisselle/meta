@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 const Credits = () => {
   return (
     <div>
-      <h1 className="w-1/ text-4xl font-bold mx-auto">CREDITS</h1>
+      <h1 className="w-full text-4xl font-bold mx-auto text-center">CREDITS</h1>
 
       <ul>
         <Card className="mt-6">
