@@ -29,7 +29,7 @@ const About = () => {
         </p>
       </div>
       <div>
-        <h1 className=" text-4xl m-4 font-bold mx-auto">Other Credits</h1>
+        <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1>
         <ul>
           <li>
             DWNTWN Concert Series | Director, CAM OP | Concert Series | MDDA |
@@ -48,11 +48,11 @@ const About = () => {
           </li>
           <li>
             NEXT South Florida presents: Matisyahu | Camera Operator & Editor |
-            Miami, FL{" "}
+            Miami
           </li>
           <li>
             Next South Florida Presents: Major League Dreidel | Camera Operator
-            & Editor | Miami, FL{" "}
+            & Editor | Miami
           </li>
           <li>Luis Gonzalez - Political 30 sec spot | Editor</li>
           <li>Area Codes 305 • Pitbull | 2nd Camera Operator | InTheMo </li>

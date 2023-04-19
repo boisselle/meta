@@ -48,7 +48,7 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
-      <main className="max-w-5xl mx-auto">
+      <main className="w-full max-w-4xl mx-auto">
         <section id="hero" className="h-screen">
           {/* <Hero /> */}
           <Hero imageUrl="/images/frosted_glass.png">
@@ -67,34 +67,52 @@ export default function Home({ images }) {
             <p>metamorphsound@gmail.com</p>
           </Hero>
         </section>
+
         <section id="credits" className="">
           {/* <ImageSlider images={images} /> */}
           <Credits />
         </section>
 
-        {/* <div className="min-h-screen bg-gray-100 flex justify-center">
-          <div className="container mx-auto p-4 flex flex-col lg:flex-row lg:items-center lg:justify-center">
-            <section className="lg:self-center" id="rates">
+        {/* <div className="container flex justify-center px-32 py-8">
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-8 mx-auto md:gap-y-0 
+          sm:px-8
+          xl:pl-60 xl:pr-30"
+          >
+            <section className="min-w-[300px]" id="rates">
               <Rates />
             </section>
-            <section className="lg:ml-4" id="gear">
+            <section className="" id="gear">
               <Gear />
             </section>
           </div>
         </div> */}
-        <div className="w-full min-h-screen bg-gray-100 flex justify-center">
-          <div className="w-full container mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-center">
-            <section className="lg:self-center" id="rates">
+
+        <div className="w-full mx-auto max-w-lg p-8">
+          <h1 className="text-2xl font-bold">LABOR</h1>
+          <h2>DAY RATE $800/10 HOUR DAY - OT AFTER 10 $120 PER HR</h2>
+          <h2>GET IN TOUCH ABOUT 12 HOUR DAYS</h2>
+        </div>
+
+        <div className="container flex justify-center pl-44 py-8 font-roboto">
+          <div className="grid grid-cols-1 md:grid-cols-2 font-sans">
+            <section className="min-w-[400px] px-4" id="rates">
               <Rates />
             </section>
-            <section className="lg:ml-4" id="gear">
+            <section className="min-w-[300px] px-4" id="gear">
               <Gear />
             </section>
           </div>
         </div>
 
-        <Terms />
-        <section id="about" className="h-screen">
+        <div className="max-w-3xl mx-auto p-4">
+          <Terms />
+        </div>
+
+        <section
+          id="about"
+          className="h-screen max-w-3xl mx-auto p-4 space-y-4"
+        >
           <About />
         </section>
       </main>
