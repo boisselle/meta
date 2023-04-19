@@ -9,7 +9,7 @@ const Credits = () => {
       <ul>
         <Card className="mt-6">
           <li>
-            DOCUMENTARIES
+            <h1 className="text-xl font-bold pb-4">DOCUMENTARIES</h1>
             <ul>
               <li>
                 Long Live Montero (Lil Nas X) Doc | San Francisco visit | Museum
@@ -47,7 +47,7 @@ const Credits = () => {
 
         <Card className="mt-6">
           <li>
-            CORPORATE
+            <h1 className="text-xl font-bold pb-4">CORPORATE</h1>
             <ul>
               <li>Roku | Interviews | Think Out Loud</li>
               <li>Freeman SF | Charlie Uniform Tango</li>
@@ -75,7 +75,7 @@ const Credits = () => {
 
         <Card className="mt-6">
           <li>
-            WEB
+            <h1 className="text-xl font-bold pb-4">WEB</h1>
             <ul>
               <li>
                 On The Tee with Jim Nantz for Golf Digest | Think Out Loud 2022
@@ -94,7 +94,7 @@ const Credits = () => {
 
         <Card className="mt-6">
           <li>
-            TELEVISION
+            <h1 className="text-xl font-bold pb-4">TELEVISION</h1>
             <ul>
               <li>Restaurant Dynasty SF | Critical Content</li>
               <li>
@@ -106,8 +106,10 @@ const Credits = () => {
               <li>2RSLVJ | Various Episodes | MUN2</li>
             </ul>
           </li>
+        </Card>
+        <Card className="mt-6">
           <li>
-            COMMERCIALS
+            <h1 className="text-xl font-bold pb-4">COMMERCIALS</h1>
             <ul>
               <li>
                 Nectar & DreamMattress | Resident Studios | Mindrite Studios
@@ -123,7 +125,9 @@ const Credits = () => {
 
         <Card className="mt-6">
           <li>
-            NARRATIVE - Feature Length
+            <h1 className="text-xl font-bold pb-4">
+              NARRATIVE - FEATURE LENGTH
+            </h1>
             <ul>
               <li>Sombras | PrimeCinema</li>
               <li>Open My Eyes | New City Films & PrimeCinema</li>
@@ -134,7 +138,7 @@ const Credits = () => {
         </Card>
         <Card className="mt-6">
           <li>
-            NARRATIVE - Short
+            <h1 className="text-xl font-bold pb-4">NARRATIVE - SHORT</h1>
             <ul>
               <li>Dark Side of the Moon | Dustin Bouchard</li>
               <li>Our Young Marriage | Quantus Features</li>
@@ -145,7 +149,7 @@ const Credits = () => {
         </Card>
         <Card className="mt-6">
           <li>
-            INDUSTRY QUALIFICATIONS
+            <h1 className="text-xl font-bold pb-4">INDUSTRY QUALIFICATIONS</h1>
             <ul>
               <li>
                 Animal Planet, Netflix, NatGeo, Showtime, HBO, Discovery

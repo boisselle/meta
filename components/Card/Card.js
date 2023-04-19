@@ -15,7 +15,8 @@ import React from "react";
 const Card = ({ className, children }) => {
   return (
     <div
-      className={`w-[400px] md:w-[550px] lg:max-w-[480px] xl:max-w-[720px] 2xl:max-w-[720px] mx-auto rounded ${className}`}
+      // className={`w-[400px] md:w-[550px] lg:max-w-[480px] xl:max-w-[720px] 2xl:max-w-[720px] mx-auto rounded ${className}`}
+      className={`p-8 border-4 mb-8 border-black m-4 rounded-xl`}
     >
       {children}
     </div>
