@@ -1,18 +1,19 @@
 import React from "react";
+import Card from "../Card/Card";
 
 const Rates = () => {
   return (
-    <div className="space-y-4">
+    <Card className="space-y-6">
       {/* <h1 className="text-4xl font-bold mx-auto">Rates</h1> */}
-      <h1 className="text-4xl font-bold">Rates</h1>
+      <h1 className="text-4xl font-bold pb-4">Rates</h1>
       <ul>
-        <h2>Basic BAG - $350/Day</h2>
+        <h2 className="text-md font-bold">BASIC BAG - $350/DAY</h2>
         <li>x01 Bag-based multi-track recorder</li>
         <li>x01 Boom microphone kit</li>
         <li>x02 Wireless lavalier mic kits</li>
       </ul>
       <ul>
-        <h2>INTERVIEW Cart 1 - $465/Day</h2>
+        <h2 className="text-md font-bold">INTERVIEW CART 1 - $465/DAY</h2>
 
         <li>x01 Bag-based multi-track recorder</li>
         <li>x01 Boom microphone kit</li>
@@ -22,7 +23,7 @@ const Rates = () => {
         <li>x01 Cart, Stand, Expendables</li>
       </ul>
       <ul>
-        <h2>INTERVIEW Cart 2 - $700/Day</h2>
+        <h2 className="text-md font-bold">INTERVIEW CART 2 - $700/DAY</h2>
 
         <li>x01 Bag-based multi-track recorder</li>
         <li>x01 Boom microphone kit</li>
@@ -34,7 +35,7 @@ const Rates = () => {
         <li>x01 Cart, Stand, Expendables</li>
       </ul>
       <ul>
-        <h2>À La Carte - Each Per Day:</h2>
+        <h2 className="text-md font-bold">À LA CARTE - EACH PER DAY:</h2>
 
         <li>Sync box - $65/Day</li>
         <li>Timecode Smart Slate - $75/Day</li>
@@ -63,7 +64,7 @@ const Rates = () => {
         <li>usb c cable</li>
         <li>case</li>
       </ul>
-    </div>
+    </Card>
   );
 };
 

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div>
+      <div className="leading-7 pb-4">
         <h1 className=" text-4xl m-4 font-bold mx-auto">About</h1>
         <p>
           Hey there, my name is Myriam Boisselle. I have 10+ years of experience
@@ -30,7 +30,7 @@ const About = () => {
       </div>
       <div>
         <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1>
-        <ul>
+        <ul className="leading-7">
           <li>
             DWNTWN Concert Series | Director, CAM OP | Concert Series | MDDA |
             Monthly
