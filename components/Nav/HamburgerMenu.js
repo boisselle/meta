@@ -98,7 +98,7 @@ const HamburgerMenu = () => {
 
           <div className="flex items-center justify-end space-x-12 px-10">
             <MenuItem text="Credits" sectionId="credits" />
-            <MenuItem text="Gear & Rates" sectionId="gear" />
+            <MenuItem text="Gear & Rates" sectionId="rates" />
             {/* <MenuItem text="Rates" sectionId="rates" /> */}
             <MenuItem text="About" sectionId="about" />
           </div>

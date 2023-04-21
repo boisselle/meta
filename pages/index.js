@@ -49,7 +49,7 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
-      <main className="w-full max-w-4xl mx-auto">
+      <main className="w-full mx-auto">
         <section id="hero" className="h-screen">
           {/* <Hero /> */}
           <Hero imageUrl="/images/frosted_glass.png">
@@ -89,23 +89,39 @@ export default function Home({ images }) {
           </div>
         </div> */}
 
-        <div className="w-full mx-auto max-w-lg p-8">
+        <section
+          className="w-full mx-auto p-8 bg-yellow-300 flex flex-col justify-center items-center"
+          id="rates"
+        >
           <h1 className="text-2xl font-bold">LABOR</h1>
           <h2>DAY RATE $800/10 HOUR DAY - OT AFTER 10 $120 PER HR</h2>
           <h2>GET IN TOUCH ABOUT 12 HOUR DAYS</h2>
-        </div>
+        </section>
 
-        <RateCard>
-          <section className="min-w-[400px] px-4" id="rates">
+        <RateCard className="flex flex-col lg:flex-row">
+          <section className="min-w-[450px] px-4">
             <Rates />
           </section>
-          <section className="min-w-[300px] px-4" id="gear">
+          <section className="min-w-[400px] px-4" id="gear">
             <Gear />
           </section>
         </RateCard>
+
+        {/*     // This is an example that I think we could simplify using another method. 
         <div className="container flex justify-center pl-30 py-8 font-roboto">
           <div className="grid grid-cols-1 md:grid-cols-2 font-sans"></div>
-        </div>
+        </div> */}
+
+        {/* <div className="container flex justify-center pl-30 py-8 font-roboto">
+          <div className="grid grid-cols-1 md:grid-cols-2 font-sans">
+            <section className="min-w-[400px] px-4" id="rates">
+              <Rates />
+            </section>
+            <section className="min-w-[300px] px-4" id="gear">
+              <Gear />
+            </section>
+          </div>
+        </div> */}
 
         {/* <div className="container flex justify-center pl-30 py-8 font-roboto">
           <div className="grid grid-cols-1 md:grid-cols-2 font-sans">
