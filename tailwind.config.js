@@ -9,6 +9,9 @@ module.exports = {
       space: {
         "-1": "-3.25rem",
       },
+      boxShadow: {
+        "solid-black": "3px 3px 1px 0 rgba(0,0,0,1)",
+      },
     },
     screens: {
       // md: "600px",

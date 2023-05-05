@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 
 const Rates = () => {
   return (
-    <Card className="space-y-6">
+    <Card className="space-y-6 shadow-solid-black">
       {/* <h1 className="text-4xl font-bold mx-auto">Rates</h1> */}
       <h1 className="text-4xl font-bold pb-4">Rates</h1>
       <ul>

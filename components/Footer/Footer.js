@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <footer>©2023 Metamorph Sound</footer>
+    <div className="text-center justify-center bg-gray-900 p-12 text-white font-extralight">
+      <footer>© 2023 Metamorph Sound</footer>
     </div>
   );
 };

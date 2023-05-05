@@ -1,34 +1,39 @@
-// import React from "react";
-
-// const Hero = () => {
-//   return (
-//     <div>
-//       <h1>Hero</h1>
-//       <p>Here we list the Hero.</p>
-//     </div>
-//   );
-// };
-
-// export default Hero;
-
 import Image from "next/image";
+import Head from "next/head";
 
 const Hero = ({ imageUrl, children }) => {
   return (
-    <div className="relative max-w-xl mx-auto h-screen">
-      {/* <Image
-        src={imageUrl}
-        alt="Background Image"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-      /> */}
-      {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
-      <div className="absolute inset-0 bg-white"></div>
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-center text-black">{children}</div>
+    <>
+      <div className="flex items-center justify-center h-screen bg-zinc-100">
+        {/* Here is the main card container for the content */}
+
+        <div className="p-8 mx-8">
+          {/* Here is the flex container*/}
+          <div className="flex flex-col md:flex-row rounded-l-xl">
+            {/* Name / Title */}
+            <div className="text-center md:text-right max-w-lg mx-10">
+              <h1 className="text-5xl md:text-6xl lg:text-8xl">
+                MYRIAM BOISSELLE
+              </h1>
+
+              <p className="text-2xl md:text-2xl">LOCATION SOUND MIXER</p>
+              <p className="text-2xl md:text-2xl"> & RECORDIST</p>
+            </div>
+
+            {/* Location, proficiencies */}
+
+            <div className="text-center md:text-left mx-6 max-w-md">
+              <h2>SAN FRANCISCO, LA, NYC, MIAMI, MEXICO, +</h2>
+              <p>GLOBAL ENTRY & TSA PRECHECK READY</p>
+              <p>
+                Proficient in mixing and recording double system sync sound with
+                Arri, Sony, Red, Canon, Black Magic & DSLRs.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 
 const Credits = () => {
   return (
-    <div>
+    <div className="max-w-2xl mx-auto py-6">
       <h1 className="w-full text-4xl font-bold mx-auto text-center">CREDITS</h1>
 
       <ul>
@@ -12,8 +12,8 @@ const Credits = () => {
             <h1 className="text-xl font-bold pb-4">DOCUMENTARIES</h1>
             <ul>
               <li>
-                Long Live Montero (Lil Nas X) Doc | San Francisco visit | Museum
-                & Crane | 2022
+                Long Live Montero (Lil Nas X) | San Francisco | Museum & Crane |
+                2022
               </li>
               <li>Nova | San Francisco Episode | Little Bay Pictures | 2022</li>
               <li>

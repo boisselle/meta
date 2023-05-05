@@ -4,7 +4,7 @@ const Terms = () => {
   return (
     <div>
       <h1 className="text-4xl m-4 font-bold mx-auto">Terms</h1>
-      <ul className="leading-7">
+      <ul className="leading-7 list-disc">
         <li>
           Acknowledgement & Negotiations: Delivery & Receipt of this Rate Card
           indicates Production Company’s acceptance of the Rates & Terms listed

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
 import HamburgerMenu from "../components/Nav/HamburgerMenu";
 // import Nav from "../components/Nav/Nav";
 import Hero from "../components/Hero/Hero";
@@ -16,6 +16,7 @@ import ImageSlider from "../components/Slider/Slider";
 import fs from "fs/promises";
 import path from "path";
 import RateCard from "../components/RateCard/RateCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export async function getServerSideProps() {
   const imagesDirectory = path.join(process.cwd(), "public/images/slideshow");
@@ -52,7 +53,8 @@ export default function Home({ images }) {
       <main className="w-full mx-auto">
         <section id="hero" className="h-screen">
           {/* <Hero /> */}
-          <Hero imageUrl="/images/frosted_glass.png">
+
+          {/* <Hero imageUrl="/images/frosted_glass.png">
             <h1 className="text-4xl font-bold">MYRIAM BOISSELLE</h1>
             <p>LOCATION SOUND MIXER & RECORDIST</p>
 
@@ -64,12 +66,46 @@ export default function Home({ images }) {
               Arri, Red, Black Magic, Canon and Sony & DSLRs
             </p>
 
-            <p>305-502-5390</p>
-            <p>metamorphsound@gmail.com</p>
-          </Hero>
+            <div classname="flex mex-auto justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-phone"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="#000000"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="#000000"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <polyline points="3 7 12 13 21 7" />
+              </svg>
+            </div>
+          </Hero> */}
+
+          <Hero imageUrl="/images/frosted_glass.png" />
         </section>
 
-        <section id="credits" className="">
+        <section id="credits" className="bg-sky-100 pb-4">
           {/* <ImageSlider images={images} /> */}
           <Credits />
         </section>
@@ -97,12 +133,49 @@ export default function Home({ images }) {
           <h2>DAY RATE $800/10 HOUR DAY - OT AFTER 10 $120 PER HR</h2>
           <h2>GET IN TOUCH ABOUT 12 HOUR DAYS</h2>
         </section>
+        {/* 
+        <div className="flex mx-auto">
+          <RateCard className="flex flex-col lg:flex-row mx-auto">
+            <section className="max-w-md px-4">
+              <Rates />
+            </section>
+            <section className="max-w-md px-4" id="gear">
+              <Gear />
+            </section>
+          </RateCard>
+        </div> */}
 
-        <RateCard className="flex flex-col lg:flex-row">
-          <section className="min-w-[450px] px-4">
+        {/* <div className="w-full flex mx-auto bg-gray-500">
+          <RateCard className="flex flex-col lg:flex-row mx-auto bg-gray-300">
+            <section className="max-w-lg lg:min-w-lg lg:max-w-lg px-4">
+              <Rates />
+            </section>
+            <section
+              className="max-w-lg lg:min-w-lg lg:max-w-lg px-4"
+              id="gear"
+            >
+              <Gear />
+            </section>
+          </RateCard>
+        </div> */}
+
+        {/* <RateCard className="mx-4 md:flex md:justify-center md:space-x-8 bg-gray-300">
+          <section className="w-full md:w-1/2">
             <Rates />
           </section>
-          <section className="min-w-[400px] px-4" id="gear">
+          <section className="w-full md:w-1/2" id="gear">
+            <Gear />
+          </section>
+        </RateCard> */}
+
+        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center bg-emerald-100">
+          <section className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
+            <Rates />
+          </section>
+          <section
+            className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg p-4"
+            id="gear"
+          >
             <Gear />
           </section>
         </RateCard>
@@ -134,16 +207,17 @@ export default function Home({ images }) {
           </div>
         </div> */}
 
-        <div className="max-w-3xl mx-auto p-4">
+        <div className="max-w-2xl mx-auto p-4">
           <Terms />
         </div>
 
         <section
           id="about"
-          className="h-screen max-w-3xl mx-auto p-4 space-y-4"
+          className="h-screen max-w-2xl mx-auto p-4 space-y-4"
         >
           <About />
         </section>
+        <Footer />
       </main>
     </>
   );
