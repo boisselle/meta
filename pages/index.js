@@ -10,6 +10,7 @@ import Gear from "../components/Gear/Gear";
 import Terms from "../components/Terms/Terms";
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
+import BackgroundGradient from "../components/BackgroundGradient/BackgroundGradient";
 import useScrollDirection from "../hooks/useScrollDirection";
 import ImageSlider from "../components/Slider/Slider";
 // import useScrollDirection from "../contexts/ScrollDirectionContext";
@@ -105,6 +106,8 @@ export default function Home({ images }) {
           <Hero imageUrl="/images/frosted_glass.png" />
         </section>
 
+        <BackgroundGradient color1="green-400" color2="blue-500" />
+
         <section id="credits" className="bg-sky-100 pb-4">
           {/* <ImageSlider images={images} /> */}
           <Credits />
@@ -126,12 +129,15 @@ export default function Home({ images }) {
         </div> */}
 
         <section
-          className="w-full mx-auto p-8 bg-yellow-300 flex flex-col justify-center items-center"
+          className="w-full mx-auto p-2 bg-yellow-300 flex flex-col justify-center items-center"
           id="rates"
         >
-          <h1 className="text-2xl font-bold">LABOR</h1>
-          <h2>DAY RATE $800/10 HOUR DAY - OT AFTER 10 $120 PER HR</h2>
-          <h2>GET IN TOUCH ABOUT 12 HOUR DAYS</h2>
+          <h1 className="text-2xl font-extrabold">LABOR</h1>
+
+          <p className="text-lg font-light">DAY RATE: $800/10 HOUR DAY</p>
+          <p className="text-lg font-extralight">OT AFTER 10 HOURS @ $120/HR</p>
+          {/* <h2>DAY RATE $800/10 HOUR DAY - OT AFTER 10 $120 PER HR</h2> */}
+          {/* <h2>GET IN TOUCH ABOUT 12 HOUR DAYS</h2> */}
         </section>
         {/* 
         <div className="flex mx-auto">
@@ -211,12 +217,10 @@ export default function Home({ images }) {
           <Terms />
         </div>
 
-        <section
-          id="about"
-          className="h-screen max-w-2xl mx-auto p-4 space-y-4"
-        >
+        <section id="about" className="max-w-2xl mx-auto p-4 space-y-4">
           <About />
         </section>
+
         <Footer />
       </main>
     </>

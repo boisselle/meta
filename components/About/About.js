@@ -30,7 +30,7 @@ const About = () => {
       </div>
       <div>
         <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1>
-        <ul className="leading-7">
+        <ul className="leading-7 pb-4">
           <li>
             DWNTWN Concert Series | Director, CAM OP | Concert Series | MDDA |
             Monthly
