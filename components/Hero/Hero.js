@@ -9,10 +9,10 @@ const Hero = ({ imageUrl, children }) => {
 
         <div className="p-8 mx-8">
           {/* Here is the flex container*/}
-          <div className="flex flex-col md:flex-row rounded-l-xl">
+          <div className="flex flex-col rounded-l-xl">
             {/* Name / Title */}
-            <div className="text-center md:text-right max-w-lg mx-10">
-              <h1 className="text-5xl md:text-6xl lg:text-8xl pb-2">
+            <div className="text-center max-w-lg mx-10">
+              <h1 className="text-xl md:text-2xl lg:text-3xl pb-2">
                 MYRIAM BOISSELLE
               </h1>
 
@@ -24,7 +24,7 @@ const Hero = ({ imageUrl, children }) => {
 
             {/* Location, proficiencies */}
 
-            <div className="text-center md:text-left mx-6 max-w-md py-8">
+            <div className="text-center mx-6 max-w-md py-8">
               <h2>Based in San Francisco, CA.</h2>
 
               <div className="space-y-2 py-4">

@@ -19,7 +19,7 @@ const BackgroundGradient = ({ color1, color2 }) => {
   return (
     <>
       <section
-        className={`h-20 bg-gradient-to-b ${colorMapping[color1]} ${colorMapping[color2]}`}
+        className={`h-12 bg-gradient-to-b ${colorMapping[color1]} ${colorMapping[color2]}`}
       ></section>
     </>
   );

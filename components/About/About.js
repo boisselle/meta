@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="leading-7 pb-4">
+      <div className="leading-7 pb-4 m-6">
         <h1 className=" text-4xl m-4 font-bold mx-auto">About</h1>
         <p>
           Hey there, my name is Myriam Boisselle. I have 10+ years of experience
@@ -28,7 +28,7 @@ const About = () => {
           knowing the end goal prepared me to be a more conscious Sound Mixer.
         </p>
       </div>
-      <div>
+      <div className="leading-7 pb-4 m-6">
         <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1>
         <ul className="leading-7 pb-4">
           <li>

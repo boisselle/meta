@@ -2,8 +2,8 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <div>
-      <h1 className="text-4xl m-4 font-bold mx-auto">Terms</h1>
+    <div className="leading-7 pb-4 m-6">
+      <h1 className="text-4xl font-bold mx-auto">Terms</h1>
       <ul className="leading-7 list-disc">
         <li>
           Acknowledgement & Negotiations: Delivery & Receipt of this Rate Card

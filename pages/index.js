@@ -51,7 +51,7 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
-      <main className="w-full mx-auto">
+      <main className="w-full mx-auto bg-zinc-100">
         <section id="hero" className="h-screen">
           {/* <Hero /> */}
 
@@ -106,30 +106,15 @@ export default function Home({ images }) {
           <Hero imageUrl="/images/frosted_glass.png" />
         </section>
 
-        <BackgroundGradient color1="green-400" color2="blue-500" />
+        <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" />
 
         <section id="credits" className="bg-sky-100 pb-4">
           {/* <ImageSlider images={images} /> */}
           <Credits />
         </section>
 
-        {/* <div className="container flex justify-center px-32 py-8">
-          <div
-            className="grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-8 mx-auto md:gap-y-0 
-          sm:px-8
-          xl:pl-60 xl:pr-30"
-          >
-            <section className="min-w-[300px]" id="rates">
-              <Rates />
-            </section>
-            <section className="" id="gear">
-              <Gear />
-            </section>
-          </div>
-        </div> */}
-
         <section
-          className="w-full mx-auto p-2 bg-yellow-300 flex flex-col justify-center items-center"
+          className="w-full mx-auto p-4 bg-slate-800 text-zinc-100 flex flex-col justify-center items-center"
           id="rates"
         >
           <h1 className="text-2xl font-extrabold">LABOR</h1>
@@ -139,42 +124,8 @@ export default function Home({ images }) {
           {/* <h2>DAY RATE $800/10 HOUR DAY - OT AFTER 10 $120 PER HR</h2> */}
           {/* <h2>GET IN TOUCH ABOUT 12 HOUR DAYS</h2> */}
         </section>
-        {/* 
-        <div className="flex mx-auto">
-          <RateCard className="flex flex-col lg:flex-row mx-auto">
-            <section className="max-w-md px-4">
-              <Rates />
-            </section>
-            <section className="max-w-md px-4" id="gear">
-              <Gear />
-            </section>
-          </RateCard>
-        </div> */}
 
-        {/* <div className="w-full flex mx-auto bg-gray-500">
-          <RateCard className="flex flex-col lg:flex-row mx-auto bg-gray-300">
-            <section className="max-w-lg lg:min-w-lg lg:max-w-lg px-4">
-              <Rates />
-            </section>
-            <section
-              className="max-w-lg lg:min-w-lg lg:max-w-lg px-4"
-              id="gear"
-            >
-              <Gear />
-            </section>
-          </RateCard>
-        </div> */}
-
-        {/* <RateCard className="mx-4 md:flex md:justify-center md:space-x-8 bg-gray-300">
-          <section className="w-full md:w-1/2">
-            <Rates />
-          </section>
-          <section className="w-full md:w-1/2" id="gear">
-            <Gear />
-          </section>
-        </RateCard> */}
-
-        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center bg-emerald-100">
+        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center bg-sky-100">
           <section className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
             <Rates />
           </section>
@@ -186,32 +137,7 @@ export default function Home({ images }) {
           </section>
         </RateCard>
 
-        {/*     // This is an example that I think we could simplify using another method. 
-        <div className="container flex justify-center pl-30 py-8 font-roboto">
-          <div className="grid grid-cols-1 md:grid-cols-2 font-sans"></div>
-        </div> */}
-
-        {/* <div className="container flex justify-center pl-30 py-8 font-roboto">
-          <div className="grid grid-cols-1 md:grid-cols-2 font-sans">
-            <section className="min-w-[400px] px-4" id="rates">
-              <Rates />
-            </section>
-            <section className="min-w-[300px] px-4" id="gear">
-              <Gear />
-            </section>
-          </div>
-        </div> */}
-
-        {/* <div className="container flex justify-center pl-30 py-8 font-roboto">
-          <div className="grid grid-cols-1 md:grid-cols-2 font-sans">
-            <section className="min-w-[400px] px-4" id="rates">
-              <Rates />
-            </section>
-            <section className="min-w-[300px] px-4" id="gear">
-              <Gear />
-            </section>
-          </div>
-        </div> */}
+        <BackgroundGradient color1="from-emerald-100" color2="to-zinc-100" />
 
         <div className="max-w-2xl mx-auto p-4">
           <Terms />
