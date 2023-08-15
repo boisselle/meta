@@ -36,7 +36,7 @@ const Hero = ({ imageUrl, children }) => {
                 <p className="text-xs">GLOBAL ENTRY & TSA PRECHECK READY</p>
               </div>
 
-              <p className="">
+              <p className="pb-8">
                 Proficient in mixing and recording double system sync sound with
                 Arri, Sony, Red, Canon, Black Magic & DSLRs.
               </p>
@@ -44,6 +44,7 @@ const Hero = ({ imageUrl, children }) => {
           </div>
         </div>
       </div>
+
     </>
   );
 };
