@@ -21,10 +21,10 @@ const About = () => {
           rich sound package for Production Sound needs. Whether you are
           documenting stories that need a voice, co-creating inspirations, or
           bringing musings, dreams and missions to life, Im here and always
-          grateful to be part of your production. May the magic begin! ​Along my
-          `&quot`on location`&quot` sound jobs, Ive also become skilled in
+          grateful to be part of your production. May the magic begin! ​Along with my
+          "on location" sound jobs, I've also become skilled in
           post-production as a dialogue editor, video editor, and M&E track
-          sound designer (including foley creation). Im happy to say that
+          sound designer (including foley creation). I'm happy to say that
           knowing the end goal prepared me to be a more conscious Sound Mixer.
         </p>
       </div>
