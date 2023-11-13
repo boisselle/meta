@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import LogosBox from '../LogosBox/LogosBox'
+import DiagonalLines from "../DiagonalLines/DiagonalLines";
 
 const Hero = ({ imageUrl, children }) => {
   const companies = [

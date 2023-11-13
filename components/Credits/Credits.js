@@ -1,10 +1,16 @@
 import React from "react";
 import Card from "../Card/Card";
+import DiagonalLines from "../DiagonalLines/DiagonalLines";
 
 const Credits = () => {
   return (
     <div className="max-w-2xl mx-auto py-6">
-      <h1 className="w-full text-4xl font-bold mx-auto text-center">CREDITS</h1>
+
+      {/* <h1 className="w-full text-4xl font-bold mx-auto text-center">CREDITS</h1>
+       */}
+      <div className="bg-pink-100 mb-8  w-[400px] h-3 flex items-center mx-auto">
+        <h1 className="w-full text-4xl font-bold text-center">CREDITS</h1>
+      </div>
 
       <ul>
         <Card className="mt-6">

@@ -17,7 +17,9 @@ import ImageSlider from "../components/Slider/Slider";
 import fs from "fs/promises";
 import path from "path";
 import RateCard from "../components/RateCard/RateCard";
+import ThumbnailGrid from "../components/ThumbnailGrid/ThumbnailGrid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 export async function getServerSideProps() {
   const imagesDirectory = path.join(process.cwd(), "public/images/slideshow");
@@ -32,6 +34,25 @@ export async function getServerSideProps() {
 
 export default function Home({ images }) {
   const [scrollDirection, setIsAutoScrolling] = useScrollDirection();
+
+  const videos = [
+    // Add your video data here
+    // { id: 'youtube_video_id', thumbnail: 'thumbnail_url' },
+
+    {
+      id: 'jb79tpguTRY',
+      thumbnail: 'https://img.youtube.com/vi/jb79tpguTRY/maxresdefault.jpg',
+    },
+    {
+      id: 'MY1vgd8YYaU',
+      thumbnail: 'https://img.youtube.com/vi/MY1vgd8YYaU/maxresdefault.jpg'
+    },
+    {
+      id: '8jHxdYGqUaA',
+      thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg'
+    },
+
+  ];
 
   const handleMenuItemClick = (sectionId) => {
     setIsAutoScrolling(true);
@@ -51,13 +72,16 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
-      <main className="w-full mx-auto bg-zinc-100">
-        <section id="hero" className="h-screen">
-
+      <main className="w-full mx-auto bg-zinc-10f0">
+        <section id="hero" className="">
           <Hero imageUrl="/images/frosted_glass.png" />
         </section>
 
         <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" />
+
+        <section>
+          <ThumbnailGrid videos={videos} />
+        </section>
 
         <section id="credits" className="bg-sky-100 pb-4">
           {/* <ImageSlider images={images} /> */}
@@ -86,7 +110,7 @@ export default function Home({ images }) {
           </section>
         </RateCard>
 
-        <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" />
+        {/* <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" /> */}
 
         <div className="max-w-2xl mx-auto p-4">
           <Terms />

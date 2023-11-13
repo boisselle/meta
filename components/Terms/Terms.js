@@ -2,8 +2,13 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <div className="leading-7 pb-4 m-6">
-      <h1 className="text-4xl m-4 font-bold mx-auto">Terms</h1>
+    <div className="leading-7 pb-4 m-2">
+      {/* <h1 className="text-4xl m-4 font-bold mx-auto">Terms</h1>
+       */}
+        <div className="bg-pink-100 mb-8 w-[400px] h-3 flex items-center mx-auto">
+          <h1 className="w-full text-4xl font-bold text-center">TERMS</h1>
+        </div>
+
       <ul className="leading-7 list-disc">
         <li>
           Acknowledgement & Negotiations: Delivery & Receipt of this Rate Card

@@ -12,6 +12,11 @@ module.exports = {
       boxShadow: {
         "solid-black": "3px 3px 1px 0 rgba(0,0,0,1)",
       },
+      width: {
+        '60': '60px',
+        '90': '90px',
+        '120': '120px',
+      }
     },
     screens: {
       // md: "600px",
@@ -24,6 +29,10 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
+    backgroundImage: theme => ({
+      'gradient-to-br': 'linear-gradient(to bottom right, var(--tw-gradient-stops))',
+      // ... Add other gradients as needed
+   }),
   },
   plugins: [
     function ({ addUtilities }) {

@@ -4,7 +4,12 @@ const About = () => {
   return (
     <>
       <div className="leading-7 pb-4 m-6">
-        <h1 className=" text-4xl m-4 font-bold mx-auto">About</h1>
+        {/* <h1 className=" text-4xl m-4 font-bold mx-auto">About</h1> */}
+
+        <div className="bg-pink-100 mb-8  w-[400px] h-3 flex items-center mx-auto">
+          <h1 className="w-full text-4xl font-bold text-center">ABOUT</h1>
+        </div>
+
         <p>
           Hey there, my name is Myriam Boisselle. I have 10+ years of experience
           in field sound mixing and recording. I was born in Mexico, raised in
@@ -29,7 +34,12 @@ const About = () => {
         </p>
       </div>
       <div className="leading-7 pb-4 m-6">
-        <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1>
+
+        {/* <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1> */}
+        <div className="bg-pink-100 mb-8  w-[400px] h-3 flex items-center mx-auto">
+          <h1 className="w-full text-4xl font-bold text-center">OTHER CREDITS</h1>
+        </div>
+
         <ul className="leading-7 pb-4">
           <li>
             DWNTWN Concert Series | Director, CAM OP | Concert Series | MDDA |
