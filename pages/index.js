@@ -18,7 +18,6 @@ import fs from "fs/promises";
 import path from "path";
 import RateCard from "../components/RateCard/RateCard";
 import ThumbnailGrid from "../components/ThumbnailGrid/ThumbnailGrid";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 export async function getServerSideProps() {
