@@ -2,6 +2,8 @@ import Image from "next/image";
 import Head from "next/head";
 import LogosBox from '../LogosBox/LogosBox'
 import DiagonalLines from "../DiagonalLines/DiagonalLines";
+import Card from "../Card/Card";
+
 
 const Hero = ({ imageUrl, children }) => {
   const companies = [
@@ -21,11 +23,10 @@ const Hero = ({ imageUrl, children }) => {
 
   return (
     <>
-      <div className="flex items-center justify-center min-h-screen bg-zinc-100">
+      <div className="flex items-center justify-center bg-white">
         {/* Here is the main card container for the content */}
 
-        <div className="pt-72 p-8 mx-8">
-
+        <div className="pt-40 p-2 mx-8">
           {/* Here is the flex container*/}
           {/* <div className="flex flex-col rounded-l-xl"> */}
 
@@ -49,20 +50,13 @@ const Hero = ({ imageUrl, children }) => {
                 <p className="text-xs">GLOBAL ENTRY & TSA PRECHECK READY</p>
               </div>
 
-              <p className="pb-8">
+              <p className="">
                 Proficient in mixing and recording double system sync sound with
                 Arri, Sony, Red, Canon, Black Magic & DSLRs.
               </p>
 
-              <div className="mt-20">Some companies I've worked with:</div>
-              <div className="mt-8 flex flex-wrap justify-between">
-
-              <div>
-                < LogosBox />
-              </div>
-            </div>
+              <h1 className="pt-14 italic">Some highlights of my work</h1>
           </div>
-
         </div>
       </div>
 

@@ -7,13 +7,13 @@ const Rates = () => {
       {/* <h1 className="text-4xl font-bold mx-auto">Rates</h1> */}
       <h1 className="text-4xl font-bold pb-4">Rates</h1>
       <ul>
-        <h2 className="text-md font-bold">BASIC BAG - $350/DAY</h2>
+        <h2 className="text-md font-bold">BASIC BAG - $450/DAY</h2>
         <li>x01 Bag-based multi-track recorder</li>
         <li>x01 Boom microphone kit</li>
         <li>x02 Wireless lavalier mic kits</li>
       </ul>
       <ul>
-        <h2 className="text-md font-bold">INTERVIEW CART 1 - $465/DAY</h2>
+        <h2 className="text-md font-bold">INTERVIEW CART 1 - $590/DAY</h2>
 
         <li>x01 Bag-based multi-track recorder</li>
         <li>x01 Boom microphone kit</li>
@@ -23,7 +23,7 @@ const Rates = () => {
         <li>x01 Cart, Stand, Expendables</li>
       </ul>
       <ul>
-        <h2 className="text-md font-bold">INTERVIEW CART 2 - $700/DAY</h2>
+        <h2 className="text-md font-bold">INTERVIEW CART 2 - $750/DAY</h2>
 
         <li>x01 Bag-based multi-track recorder</li>
         <li>x01 Boom microphone kit</li>

@@ -16,7 +16,10 @@ module.exports = {
         '60': '60px',
         '90': '90px',
         '120': '120px',
-      }
+      },
+      colors: {
+        'light-blue': '#03a9f4', // You can define your custom color here
+      },
     },
     screens: {
       // md: "600px",

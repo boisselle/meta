@@ -12,7 +12,7 @@ import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import BackgroundGradient from "../components/BackgroundGradient/BackgroundGradient";
 import useScrollDirection from "../hooks/useScrollDirection";
-import ImageSlider from "../components/Slider/Slider";
+
 // import useScrollDirection from "../contexts/ScrollDirectionContext";
 import fs from "fs/promises";
 import path from "path";
@@ -38,7 +38,18 @@ export default function Home({ images }) {
   const videos = [
     // Add your video data here
     // { id: 'youtube_video_id', thumbnail: 'thumbnail_url' },
-
+    {
+      id: '7ojh4xYoJRU',
+      thumbnail: 'https://img.youtube.com/vi/7ojh4xYoJRU/maxresdefault.jpg',
+    },
+    {
+      id: 'h6n4BpZtl6k',
+      thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
+    },
+    {
+      id: 'bbtcUPJ_N4U',
+      thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
+    },
     {
       id: 'jb79tpguTRY',
       thumbnail: 'https://img.youtube.com/vi/jb79tpguTRY/maxresdefault.jpg',
@@ -51,7 +62,6 @@ export default function Home({ images }) {
       id: '8jHxdYGqUaA',
       thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg'
     },
-
   ];
 
   const handleMenuItemClick = (sectionId) => {
@@ -72,33 +82,40 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
-      <main className="w-full mx-auto bg-zinc-10f0">
+      <main className="w-full mx-auto bg-white">
         <section id="hero" className="">
-          <Hero imageUrl="/images/frosted_glass.png" />
+          {/* <Hero imageUrl="/images/frosted_glass.png" /> */}
+          <Hero />
         </section>
 
-        <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" />
+
+
+        {/* <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" /> */}
 
         <section>
           <ThumbnailGrid videos={videos} />
         </section>
 
-        <section id="credits" className="bg-sky-100 pb-4">
+        <section id="credits" className=" pb-4">
           {/* <ImageSlider images={images} /> */}
           <Credits />
         </section>
 
+        {/* Labor banner */}
         <section
           className="w-full mx-auto p-4 bg-slate-800 text-zinc-100 flex flex-col justify-center items-center"
           id="rates"
         >
-          <h1 className="text-2xl font-extrabold">LABOR</h1>
+          <h1 className="text-2xl font-extrabold pb-2">LABOR</h1>
 
-          <p className="text-lg font-light">DAY RATE: $800/10 HOUR DAY</p>
-          <p className="text-lg font-extralight">OT AFTER 10 HOURS @ $120/HR</p>
+          <p className="text-md font-bold">DAY RATE: $850/10 HOUR DAY</p>
+          <p className="text-md font-light">OT AFTER 10 HOURS @ $120/HR</p>
+          <p className="text-sm font-light p-1">GET IN TOUCH ABOUT 12 HOUR DAYS</p>
+          
         </section>
 
-        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center bg-sky-100">
+        {/* Rates and Gear */}
+        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center ">
           <section className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
             <Rates />
           </section>
@@ -112,15 +129,16 @@ export default function Home({ images }) {
 
         {/* <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" /> */}
 
-        <div className="max-w-2xl mx-auto p-4">
+        <div className="mx-auto px-40">
           <Terms />
         </div>
 
-        <section id="about" className="max-w-2xl mx-auto p-4 space-y-4">
+        <section id="about" className="mx-auto px-32 space-y-4 ">
           <About />
         </section>
 
         <Footer />
+
       </main>
     </>
   );

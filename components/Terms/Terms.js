@@ -1,15 +1,17 @@
 import React from "react";
+import Card from "../Card/Card";
 
 const Terms = () => {
   return (
     <div className="leading-7 pb-4 m-2">
       {/* <h1 className="text-4xl m-4 font-bold mx-auto">Terms</h1>
        */}
-        <div className="bg-pink-100 mb-8 w-[400px] h-3 flex items-center mx-auto">
-          <h1 className="w-full text-4xl font-bold text-center">TERMS</h1>
-        </div>
+        <h1 className="text-4xl mb-4 font-bold text-center">TERMS</h1>
 
-      <ul className="leading-7 list-disc">
+
+        <Card className="mt-6">
+
+        <ul className="leading-7 list-disc">
         <li>
           Acknowledgement & Negotiations: Delivery & Receipt of this Rate Card
           indicates Production Company’s acceptance of the Rates & Terms listed
@@ -49,6 +51,8 @@ const Terms = () => {
           considered “off the clock.”
         </li>
       </ul>
+        </Card>
+
     </div>
   );
 };

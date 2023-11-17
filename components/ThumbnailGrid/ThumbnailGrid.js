@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
+import LogosBox from '../LogosBox/LogosBox';
 
 export default function ThumbnailGrid({ videos }) {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
-    <div className="mx-5 mb-5"> {/* Adds 20px margin on both sides */}
+    <div className="mx-16 mb-5"> {/* Adds 20px margin on both sides */}
+
+
+      {/* Grid Rendering Code */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4"> {/* 2 columns for xs to sm, 4 columns for md and up */}
         {videos.map((video, index) => (
           <div key={index} className="cursor-pointer">
@@ -14,7 +18,6 @@ export default function ThumbnailGrid({ videos }) {
               className="w-full h-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-md"
               onClick={() => setSelectedVideo(video)}
             />
-            
           </div>
         ))}
 
@@ -30,9 +33,10 @@ export default function ThumbnailGrid({ videos }) {
             allowFullScreen
           ></iframe>
 
+          {/* Close Button */}
           <button
             onClick={() => setSelectedVideo(null)}
-            className="absolute top-3 right-3 text-white bg-pink-300 rounded-full h-16 w-16 flex items-center justify-center border-4 border-black"
+            className="absolute top-3 right-3 text-black font-bold bg-pink-300 rounded-full h-16 w-16 flex items-center justify-center border-4 border-black"
             style={{ borderRadius: '35px', top: '-30px', right: 'calc(-10px - 2.5%' }}
           >
             X
@@ -41,6 +45,13 @@ export default function ThumbnailGrid({ videos }) {
           </div>
         )}
       </div>
+
+      <div className="mt-8 flex flex-wrap justify-between">
+
+<div>
+  < LogosBox />
+</div>
+</div>
     </div>
   );
 }
