@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 
 const Terms = () => {
   return (
-    <div className="leading-7 pb-4 m-2">
+    <div className="max-w-2xl mx-auto py-6">
       {/* <h1 className="text-4xl m-4 font-bold mx-auto">Terms</h1>
        */}
         <h1 className="text-4xl mb-4 font-bold text-center">TERMS</h1>
