@@ -128,11 +128,13 @@ export default function Home({ images }) {
 
         {/* <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" /> */}
 
-        <div className="mx-auto px-40">
+        {/* <div className="mx-auto px-40"> */}
+        <div className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
           <Terms />
         </div>
 
-        <section id="about" className="mx-auto px-32 space-y-4 ">
+        {/* <section id="about" className="mx-auto px-32 space-y-4 "> */}
+        <section id="about" className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
           <About />
         </section>
 
