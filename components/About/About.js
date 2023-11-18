@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 const About = () => {
   return (
     <>
-      <div className="max-w-2xl mx-auto py-6">
+      <div className="leading-7 pb-4 m-6">
         {/* <h1 className=" text-4xl m-4 font-bold mx-auto">About</h1> */}
 
         <h1 className="w-full text-4xl mb-4 font-bold text-center">ABOUT</h1>
@@ -17,7 +17,7 @@ const About = () => {
           2020. I have worked in several US states and other countries on an
           array of productions from the top floors of corporate buildings,
           lush wet jungles, dry hot deserts and everything in between. I
-          have the proper gear for the right place in time and I am all ears to
+          have the proper gear for the right place in time and Im all ears to
           understanding your workflow as it relates to your data handling,
           sensitivity, time frame and gear requirements. <br/><br/>
           
@@ -41,7 +41,7 @@ const About = () => {
         </Card>
 
       </div>
-      <div className="max-w-2xl mx-auto py-6">
+      <div className="leading-7 pb-4 m-6">
 
         {/* <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1> */}
         <h1 className="w-full text-4xl mb-4 font-bold text-center">OTHER CREDITS</h1>
