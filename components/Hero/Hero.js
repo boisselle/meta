@@ -50,12 +50,17 @@ const Hero = ({ imageUrl, children }) => {
                 <p className="text-xs">GLOBAL ENTRY & TSA PRECHECK READY</p>
               </div>
 
-              <p className="">
+              <p className="mb-6">
                 Proficient in mixing and recording double system sync sound with
                 Arri, Sony, Red, Canon, Black Magic & DSLRs.
               </p>
 
-              <h1 className="pt-14 italic">Some highlights of my work</h1>
+              <div></div>
+              <a href="tel:+13055025390" className="text-blue-400 hover:text-blue-600 font-bold">305-502-5390</a>
+              <br></br>
+              <a href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" className="text-blue-400 hover:text-blue-700 font-bold">metamorphsound@gmail.com</a>
+
+              <h1 className="pt-8 italic">Some highlights of my work</h1>
           </div>
         </div>
       </div>
