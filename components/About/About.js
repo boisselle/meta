@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 const About = () => {
   return (
     <>
-      <div className="leading-7 pb-4 m-6">
+      <div className="leading-7 pb-4">
         {/* <h1 className=" text-4xl m-4 font-bold mx-auto">About</h1> */}
 
         <h1 className="w-full text-4xl mb-4 font-bold text-center">ABOUT</h1>
@@ -41,7 +41,7 @@ const About = () => {
         </Card>
 
       </div>
-      <div className="leading-7 pb-4 m-6">
+      <div className="leading-7 pb-4">
 
         {/* <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1> */}
         <h1 className="w-full text-4xl mb-4 font-bold text-center">OTHER CREDITS</h1>
