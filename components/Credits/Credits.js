@@ -4,7 +4,7 @@ import DiagonalLines from "../DiagonalLines/DiagonalLines";
 
 const Credits = () => {
   return (
-    <div className="max-w-2xl mx-auto py-6 text-center">
+    <div className="max-w-2xl mx-auto py-6 text-center leading-7">
 
       {/* <h1 className="w-full text-4xl font-bold mx-auto text-center">CREDITS</h1>
        */}
