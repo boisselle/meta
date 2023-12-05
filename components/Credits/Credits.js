@@ -4,7 +4,7 @@ import DiagonalLines from "../DiagonalLines/DiagonalLines";
 
 const Credits = () => {
   return (
-    <div className="max-w-2xl mx-auto py-6 text-center leading-7">
+    <div className="max-w-2xl mx-auto py-6 text-center">
 
       {/* <h1 className="w-full text-4xl font-bold mx-auto text-center">CREDITS</h1>
        */}
@@ -15,7 +15,7 @@ const Credits = () => {
       <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">ART | ASMR | PODCAST - RECORDINGS</h1>
-            <ul>
+            <ul className="space-y-2">
               <li>
               <a href="https://www.youtube.com/watch?v=h6n4BpZtl6k" className="text-light-blue underline" target="_blank">Work Sounds by Indeed | You Had Me At Black​ 2023</a>
               </li>
@@ -32,7 +32,7 @@ const Credits = () => {
         <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">TELEVISION</h1>
-            <ul>
+            <ul className="space-y-2">
               <li><a href="https://abc.com/movies-and-specials/the-latin-music-revolution-a-soul-of-a-nation-presentation" className="text-light-blue underline" target="_blank">The Latin Music Revolution: A Soul of a Nation (Linda Ronstadt) | ABC</a></li>
               <li><a href="https://www.youtube.com/watch?v=DRwAWllDRIQ" className="text-light-blue underline" target="_blank">Whole Story with Anderson Cooper | Without Roe | CNN</a></li>
               <li><a href="https://www.youtube.com/watch?app=desktop&fbclid=PAAaYtNMKWBzmdtPUk5_RHKXilc3IUezP8S6Ex6gZO7PwkX9QGVtpBQvacU84_aem_ARd37CTHS0nwsBbgezcBehdVO5wpAbRMm4ASGe7C3yPKPtZuR-mNPSw53wPwqRP1FPM&v=ptSFSs3bCps&feature=youtu.be" className="text-light-blue underline" target="_blank">Poisoned: The story of Logan and Kade Webb | ESPN | The Common Bunch</a></li>
@@ -50,7 +50,7 @@ const Credits = () => {
         <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">DOCUMENTARIES</h1>
-            <ul>
+            <ul className="space-y-2">
             <li><a href="https://www.youtube.com/watch?v=8jHxdYGqUaA&t=21s" className="text-light-blue underline" target="_blank">Con Madre | Every Mother Counts | on Nat Geo</a></li>
             <li><a href="https://www.youtube.com/watch?v=8jHxdYGqUaA&t=21s" className="text-light-blue underline" target="_blank">Birth WARS | Janet Jarman - Tonala Films</a></li>
               <li><a href="https://www.youtube.com/watch?v=QHUkvgzNXdw" className="text-light-blue underline" target="_blank">COPA 71 | New Black Films | Rachel Ramsey</a></li>
@@ -103,7 +103,7 @@ const Credits = () => {
         <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">WEB</h1>
-            <ul>
+            <ul className="space-y-2">
               <li>
                 <a href="https://www.youtube.com/watch?v=jb79tpguTRY&feature=youtu.be" className="text-light-blue underline" target="_blank">
                 SF Mayor London Breed Steps Into Her Power  | She The People 
@@ -162,7 +162,7 @@ const Credits = () => {
         <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">CORPORATE</h1>
-            <ul>
+            <ul className="space-y-2">
               <li>
                 <a href="https://vimeo.com/800399615/1d7abdbce6?share=copy" className="text-light-blue underline" target="_blank">
                   Genentech MGB | Chosen Few Media
@@ -201,7 +201,7 @@ const Credits = () => {
         <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">COMMERCIALS</h1>
-            <ul>
+            <ul className="space-y-2">
               <li>
                 Nectar & DreamMattress | Resident Studios | Mindrite Studios
               </li>
@@ -219,7 +219,7 @@ const Credits = () => {
             <h1 className="text-xl font-bold pb-4">
               NARRATIVE - FEATURE LENGTH
             </h1>
-            <ul>
+            <ul className="space-y-2">
               <li>Sombras | PrimeCinema</li>
               <li>
                 <a href="https://vimeo.com/user18371371/review/201794841/785e02d1c1" className="text-light-blue underline" target="_blank" >
@@ -243,7 +243,7 @@ const Credits = () => {
         <Card className="mt-6">
           <li>
             <h1 className="text-xl font-bold pb-4">NARRATIVE - SHORT</h1>
-            <ul>
+            <ul className="space-y-2">
               <li><a href="https://www.youtube.com/watch?v=lfPKGibnfM0" className="text-light-blue underline" target="_blank">Dark Side of the Moon | Dustin Bouchard</a></li>
               <li><a href="https://www.youtube.com/watch?v=kiD91S55cyQ" className="text-light-blue underline" target="_blank">Our Young Marriage | Quantus Features</a></li>
               <li><a href="https://www.youtube.com/watch?v=RypZKQPcz3Q" className="text-light-blue underline" target="_blank">GRACE | Michael Macias</a></li>
