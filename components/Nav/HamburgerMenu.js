@@ -49,7 +49,7 @@ const HamburgerMenu = () => {
             {/* Hamburger Lines */}
             <div
               className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
-                isOpen ? "rotate-45" : ""
+                isOpen ? "rotate-45 bg-white" : ""
               }`}
             ></div>
             <div
@@ -59,7 +59,7 @@ const HamburgerMenu = () => {
             ></div>
             <div
               className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
-                isOpen ? "-rotate-45 mt-[-12px]" : ""
+                isOpen ? "-rotate-45 mt-[-12px] bg-white" : ""
               }`}
             ></div>
 
