@@ -5,7 +5,7 @@ export default function ThumbnailGrid({ videos }) {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
-    <div className="mx-16 mb-5"> {/* Adds 20px margin on both sides */}
+    <div className="mx-4 mb-5"> {/* Adds 20px margin on both sides */}
 
 
       {/* Grid Rendering Code */}
@@ -18,6 +18,7 @@ export default function ThumbnailGrid({ videos }) {
               className="w-full h-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-md"
               onClick={() => setSelectedVideo(video)}
             />
+            <p className="text-center text-sm mt-2 italic">{video.description}</p>
           </div>
         ))}
 
@@ -48,9 +49,9 @@ export default function ThumbnailGrid({ videos }) {
 
       <div className="mt-8 flex flex-wrap justify-between">
 
-<div>
-  < LogosBox />
-</div>
+      <div>
+        < LogosBox />
+      </div>
 </div>
     </div>
   );

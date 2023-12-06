@@ -40,26 +40,32 @@ export default function Home({ images }) {
     {
       id: '7ojh4xYoJRU',
       thumbnail: 'https://img.youtube.com/vi/7ojh4xYoJRU/maxresdefault.jpg',
+      description: "Woman of Earth"
     },
     {
       id: 'h6n4BpZtl6k',
       thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
+      description: "Work Sounds"
     },
     {
       id: 'bbtcUPJ_N4U',
       thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
+      description: "The Principle of Pleasure"
     },
     {
       id: 'jb79tpguTRY',
       thumbnail: 'https://img.youtube.com/vi/jb79tpguTRY/maxresdefault.jpg',
+      description: "Interview with SF Mayor London Breed"
     },
     {
       id: 'MY1vgd8YYaU',
-      thumbnail: 'https://img.youtube.com/vi/MY1vgd8YYaU/maxresdefault.jpg'
+      thumbnail: 'https://img.youtube.com/vi/MY1vgd8YYaU/maxresdefault.jpg',
+      description: "Interview with Steph Curry & De'Aaron Fox"
     },
     {
       id: '8jHxdYGqUaA',
-      thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg'
+      thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg',
+      description: "Indigenous Women Saving Lives"
     },
   ];
 
