@@ -15,7 +15,7 @@ const About = () => {
         <br /><br />
         My first priority is to be on the same page as the crew, helping to execute on the vision of the director and producers. I do this by keeping it all in sync with clean dialogue, riding the waves of creation and morphing from a small footprint ENG package to a more rich sound package for Production Sound needs. Whether you are documenting stories that need a voice, in-house confidential projects, co-creating inspirations, or bringing musings, dreams and missions to life, I'm here and always grateful to be part of your production. May the magic begin!
         <br /><br />
-        Along with my "on location" sound jobs, I also became a skilled in post-production dialogue editor, video editor, and M&E track sound designer (including foley creation). Developing these capabilites prepared me to be a more conscious and effective Sound Mixer.
+        Along with my "on location" sound jobs, I also became skilled in post-production dialogue editor, video editor, and M&E track sound designer (including foley creation). Developing these capabilites prepared me to be a more conscious and effective Sound Mixer.
         </p>
 
         </Card>
