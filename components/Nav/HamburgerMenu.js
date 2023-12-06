@@ -67,7 +67,7 @@ const HamburgerMenu = () => {
           {isOpen && (
             <>
               <div
-                className="bg-pink-300 top inset-0 w-full h-full flex flex-col items-center justify-center space-y-12 z-10"
+                className="bg-black text-white top inset-0 w-full h-full flex flex-col items-center justify-center space-y-12 z-10"
                 //   style={{ margin: "auto", top: 0, left: 0, right: 0, bottom: 0 }}
                 style={{
                   position: "absolute",
