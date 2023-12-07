@@ -108,7 +108,7 @@ export default function Home({ images }) {
 
         {/* Labor banner */}
         <section
-          className="w-full mx-auto p-4 bg-banner-blue text-black flex flex-col justify-center items-center"
+          className="w-full mx-auto p-4 bg-banner-blue text-white flex flex-col justify-center items-center"
           id="rates"
         >
           <h1 className="text-2xl font-extrabold pb-2">LABOR</h1>
