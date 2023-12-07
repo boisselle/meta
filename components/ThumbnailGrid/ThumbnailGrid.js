@@ -9,13 +9,13 @@ export default function ThumbnailGrid({ videos }) {
 
 
       {/* Grid Rendering Code */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4"> {/* 2 columns for xs to sm, 4 columns for md and up */}
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto"> {/* 2 columns for xs to sm, 4 columns for md and up */}
         {videos.map((video, index) => (
           <div key={index} className="cursor-pointer">
             <img
               src={video.thumbnail}
               alt="Thumbnail"
-              className="w-full h-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-md"
+              className="w-full h-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-md 2xl:max-w-[400px]"
               onClick={() => setSelectedVideo(video)}
             />
             <p className="text-center text-sm mt-2 italic">{video.description}</p>

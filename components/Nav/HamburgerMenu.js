@@ -28,7 +28,9 @@ const HamburgerMenu = () => {
   const MenuItem = ({ text, sectionId }) => (
     <a
       onClick={() => scrollTo(sectionId)}
-      className="text-2xl text-white hover:text-cyan-200 cursor-pointer"
+      className={`text-2xl hover:text-cyan-200 cursor-pointer ${
+        isMobile && isOpen ? "text-white" : "text-black"
+      }`}
     >
       {text}
     </a>
