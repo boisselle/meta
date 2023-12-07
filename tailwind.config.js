@@ -19,6 +19,7 @@ module.exports = {
       },
       colors: {
         'light-blue': '#03a9f4', // You can define your custom color here
+        'banner-blue': '#4688f7'
       },
     },
     screens: {

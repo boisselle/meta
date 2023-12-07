@@ -253,7 +253,7 @@ const Credits = () => {
         </Card>
         <Card className="mt-6">
           <li>
-            <h1 className="text-xl font-bold pb-4">INDUSTRY QUALIFICATIONS</h1>
+            <h1 className="text-xl font-bold pb-6">INDUSTRY QUALIFICATIONS</h1>
             <ul>
               <li>
                 Animal Planet, Netflix, NatGeo, Showtime, HBO, Discovery
