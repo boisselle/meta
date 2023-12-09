@@ -102,7 +102,7 @@ export default function Home({ images }) {
           <ThumbnailGrid videos={videos} />
         </section>
 
-        <section className="pb-8">
+        <section className="p-6">
           <LogosBox />
         </section>
 
@@ -113,7 +113,7 @@ export default function Home({ images }) {
 
         {/* Labor banner */}
         <section
-          className="w-full mx-auto p-4 bg-light-blue text-white flex flex-col justify-center items-center"
+          className="w-full mx-auto p-4 bg-slate-900 text-white flex flex-col justify-center items-center"
           id="rates"
         >
           <h1 className="text-2xl font-extrabold pb-2">LABOR</h1>
@@ -125,7 +125,7 @@ export default function Home({ images }) {
         </section>
 
         {/* Rates and Gear */}
-        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center ">
+        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center py-6">
           <section className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
             <Rates />
           </section>
