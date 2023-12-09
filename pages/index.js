@@ -18,6 +18,7 @@ import fs from "fs/promises";
 import path from "path";
 import RateCard from "../components/RateCard/RateCard";
 import ThumbnailGrid from "../components/ThumbnailGrid/ThumbnailGrid";
+import LogosBox from "../components/LogosBox/LogosBox";
 
 
 export async function getServerSideProps() {
@@ -97,8 +98,12 @@ export default function Home({ images }) {
 
         {/* <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" /> */}
 
-        <section>
+        <section className="bg-yellow-300 py-6">
           <ThumbnailGrid videos={videos} />
+        </section>
+
+        <section className="pb-8">
+          <LogosBox />
         </section>
 
         <section id="credits" className=" pb-0">

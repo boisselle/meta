@@ -1,39 +1,49 @@
-import React from "react";
-import Image from 'next/image'
+import Image from 'next/image';
+import React from 'react';
 
 const LogosBox = () => {
+    const images = [
+        { path: '/images/natgeo_logo.png', size: 100 },
+        { path: '/images/discover_logo.png', size: 100 },
+        { path: '/images/showtime-seeklogo.com.svg', size: 100 },
+        { path: '/images/Netflix-Logo.wine.svg', size: 100 },
+        { path: '/images/ESPN_wordmark.svg', size: 90 },
+        { path: '/images/Vox_logo.svg', size: 60 },
+        { path: '/images/vice_logo.png', size: 100 },
+        { path: '/images/pbs_logo.png', size: 80 },
+        { path: '/images/goog_log.png', size: 100 },
+        { path: '/images/Food_Network_Logo_2.svg', size: 60 },
+        { path: '/images/bloomberg-1.svg', size: 100 },
+        { path: '/images/uber_logo.png', size: 80 },
+        { path: '/images/berkeley_logo.png', size: 100 },
+        { path: '/images/vw_logo.png', size: 60 },
+        { path: '/images/cnn_logo.png', size: 70 },
+        { path: '/images/abc_logo.png', size: 60 },
+        { path: '/images/NBC_logo.png', size: 50 },
+        { path: '/images/cbs_logo.png', size: 80 },
+        { path: '/images/mtv_logo.png', size: 60 },
 
-    const imagePaths = [
-        '/images/natgeo_logo.png',
-        '/images/discover_logo.png',
-        '/images/showtime-seeklogo.com.svg',
-        '/images/Netflix-Logo.wine.svg',
-        '/images/ESPN_wordmark.svg',
-        '/images/Vox_logo.svg',
-        '/images/vice_logo.png',
-        '/images/pbs_logo.png',
-        '/images/goog_log.png',
-        '/images/Food_Network_Logo_2.svg',
-        '/images/bloomberg-1.svg',
-        '/images/uber_logo.png',
-        '/images/berkeley_logo.png',
-        '/images/vw_logo.png',
-        '/images/cnn_logo.png',
-        '/images/abc_logo.png',
-        '/images/NBC_logo.png',
-        '/images/cbs_logo.png',
-        '/images/mtv_logo.png',
     ];
-    
+
     return (
-        <div className="mt-2 sm:mx-6 lg:mx-28 flex flex-wrap">
-            {imagePaths.map((path, idx) => (
-                <div key={idx} className="w-1/4 sm:w-1/4 md:w-1/4 lg:w-1/4 p-2 flex items-center justify-center">
-                    <img src={path} alt={`Image for ${path.split('/').pop().split('.')[0]}`} className="w-60 md:w-90 lg:w-90 xl:w-90" />
-                </div>
-            ))}
+        <div className="flex justify-center"> {/* Full width container */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-12 mx-auto justify-items-center"> {/* Horizontally centered grid */}
+                {images.map((image, index) => (
+                    <div key={index} className="flex justify-center items-center h-20"> {/* Fixed height for the container */}
+                        <div style={{ width: `${image.size}px`, height: `${image.size}px` }} className="flex justify-center items-center">
+                            <Image
+                                src={image.path}
+                                alt={`Image ${index}`}
+                                layout="intrinsic"
+                                width={image.size}
+                                height={image.size}
+                            />
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     );
-}
+};
 
 export default LogosBox;

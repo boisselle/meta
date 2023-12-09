@@ -5,7 +5,7 @@ export default function ThumbnailGrid({ videos }) {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
-    <div className="mx-4 mb-5"> {/* Adds 20px margin on both sides */}
+    <div className="mx-4 mb-50"> {/* Adds 20px margin on both sides */}
 
 
       {/* Grid Rendering Code */}
@@ -47,12 +47,6 @@ export default function ThumbnailGrid({ videos }) {
         )}
       </div>
 
-      <div className="mt-8 flex flex-wrap justify-between">
-
-      <div>
-        < LogosBox />
-      </div>
-</div>
     </div>
   );
 }
