@@ -61,7 +61,7 @@ const Hero = ({ imageUrl, children }) => {
               <a href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" className="text-blue-400 hover:text-blue-700 font-bold">metamorphsound@gmail.com</a>
 
               <div className="flex justify-center items-center space-x-4 pt-4">
-                <a href="www.instagram.com/metamorphsound/" className="block">
+                <a href="https://www.instagram.com/metamorphsound/" className="block" target="_blank">
                   <Image 
                     src="/images/Instagram_Glyph_Black.png" 
                     alt="Instagram" 
@@ -70,7 +70,7 @@ const Hero = ({ imageUrl, children }) => {
                     objectFit="cover" 
                   />
                 </a>
-                <a href="https://www.imdb.com/name/nm12717002/" className="block">
+                <a href="https://www.imdb.com/name/nm12717002/" className="block" target="_blank">
                   <Image 
                     src="/images/imdb_rectangle_black.png" 
                     alt="IMDb" 
@@ -79,7 +79,7 @@ const Hero = ({ imageUrl, children }) => {
                     objectFit="cover" 
                   />
                 </a>
-                <a href="https://www.linkedin.com/in/myriamsound/" className="block">
+                <a href="https://www.linkedin.com/in/myriamsound/" className="block" target="_blank">
                   <Image 
                     src="/images/LinkedIn-Black-128.png" 
                     alt="LinkedIn" 
@@ -88,7 +88,7 @@ const Hero = ({ imageUrl, children }) => {
                     objectFit="cover" 
                   />
                 </a>
-    </div>
+              </div>
 
               <h1 className="pt-8 italic">Some highlights of my work</h1>
           </div>
