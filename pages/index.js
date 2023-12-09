@@ -98,7 +98,7 @@ export default function Home({ images }) {
 
         {/* <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" /> */}
 
-        <section className="bg-yellow-300 py-6">
+        <section className="bg-slate-900 py-6">
           <ThumbnailGrid videos={videos} />
         </section>
 

@@ -21,13 +21,13 @@ const LogosBox = () => {
         { path: '/images/abc_logo.png', size: 60 },
         { path: '/images/NBC_logo.png', size: 50 },
         { path: '/images/cbs_logo.png', size: 80 },
-        { path: '/images/mtv_logo.png', size: 60 },
+        // { path: '/images/mtv_logo.png', size: 60 },
 
     ];
 
     return (
         <div className="flex justify-center"> {/* Full width container */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-12 mx-auto justify-items-center"> {/* Horizontally centered grid */}
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-6 mx-auto justify-items-center"> {/* Horizontally centered grid */}
                 {images.map((image, index) => (
                     <div key={index} className="flex justify-center items-center h-20"> {/* Fixed height for the container */}
                         <div style={{ width: `${image.size}px`, height: `${image.size}px` }} className="flex justify-center items-center">

@@ -46,8 +46,8 @@ const Hero = ({ imageUrl, children }) => {
                   <Image 
                     src="/images/Instagram_Glyph_Black.png" 
                     alt="Instagram" 
-                    width={32} // Adjust as needed
-                    height={32} // Adjust as needed
+                    width={24} // Adjust as needed
+                    height={24} // Adjust as needed
                     objectFit="cover" 
                   />
                 </a>
@@ -55,8 +55,8 @@ const Hero = ({ imageUrl, children }) => {
                   <Image 
                     src="/images/imdb_rectangle_black.png" 
                     alt="IMDb" 
-                    width={64} // Adjust as needed
-                    height={32} // Adjust as needed
+                    width={56} // Adjust as needed
+                    height={24} // Adjust as needed
                     objectFit="cover" 
                   />
                 </a>
@@ -64,8 +64,8 @@ const Hero = ({ imageUrl, children }) => {
                   <Image 
                     src="/images/LinkedIn-Black-128.png" 
                     alt="LinkedIn" 
-                    width={32} // Adjust as needed
-                    height={32} // Adjust as needed
+                    width={24} // Adjust as needed
+                    height={24} // Adjust as needed
                     objectFit="cover" 
                   />
                 </a>

@@ -5,7 +5,7 @@ export default function ThumbnailGrid({ videos }) {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
-    <div className="mx-4 mb-50"> {/* Adds 20px margin on both sides */}
+    <div className="mx-4 mb-50 text-white"> {/* Adds 20px margin on both sides */}
 
 
       {/* Grid Rendering Code */}
