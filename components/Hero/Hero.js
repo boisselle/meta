@@ -41,26 +41,7 @@ const Hero = ({ imageUrl, children }) => {
               <p className="text-2xl md:text-2xl font-light"> & RECORDIST</p>
             </div>
 
-            {/* Location, proficiencies */}
-            <div className="text-center mx-6 max-w-md py-8">
-              <h2>SAN FRANCISCO & LA +</h2>
-              <h2>NYC | MIAMI | MEXICO</h2>
-
-              <div className="space-y-1 py-4">
-                <p className="text-xs">GLOBAL ENTRY & TSA PRECHECK READY</p>
-              </div>
-
-              <p className="mb-6">
-                Proficient in mixing and recording double system sync sound with
-                Arri, Sony, Red, Canon, Black Magic & DSLRs.
-              </p>
-
-              <div></div>
-              <a href="tel:+13055025390" className="text-blue-400 hover:text-blue-600 font-bold">305-502-5390</a>
-              <br></br>
-              <a href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" className="text-blue-400 hover:text-blue-700 font-bold">metamorphsound@gmail.com</a>
-
-              <div className="flex justify-center items-center space-x-4 pt-4">
+            <div className="flex justify-center items-center space-x-4 pt-4">
                 <a href="https://www.instagram.com/metamorphsound/" className="block" target="_blank">
                   <Image 
                     src="/images/Instagram_Glyph_Black.png" 
@@ -89,6 +70,26 @@ const Hero = ({ imageUrl, children }) => {
                   />
                 </a>
               </div>
+
+
+            {/* Location, proficiencies */}
+            <div className="text-center mx-6 max-w-md py-4">
+              <h2>SAN FRANCISCO & LA +</h2>
+              <h2>NYC | MIAMI | MEXICO</h2>
+
+              <div className="space-y-1 py-4">
+                <p className="text-xs">GLOBAL ENTRY & TSA PRECHECK READY</p>
+              </div>
+
+              <p className="mb-6">
+                Proficient in mixing and recording double system sync sound with
+                Arri, Sony, Red, Canon, Black Magic & DSLRs.
+              </p>
+
+              <div></div>
+              <a href="tel:+13055025390" className="text-light-blue hover:text-blue-600 font-bold">305-502-5390</a>
+              <br></br>
+              <a href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" className="text-light-blue hover:text-blue-700 font-bold">metamorphsound@gmail.com</a>
 
               <h1 className="pt-8 italic">Some highlights of my work</h1>
           </div>
