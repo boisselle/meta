@@ -60,6 +60,36 @@ const Hero = ({ imageUrl, children }) => {
               <br></br>
               <a href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" className="text-blue-400 hover:text-blue-700 font-bold">metamorphsound@gmail.com</a>
 
+              <div className="flex justify-center items-center space-x-4 pt-4">
+                <a href="www.instagram.com/metamorphsound/" className="block">
+                  <Image 
+                    src="/images/Instagram_Glyph_Black.png" 
+                    alt="Instagram" 
+                    width={32} // Adjust as needed
+                    height={32} // Adjust as needed
+                    objectFit="cover" 
+                  />
+                </a>
+                <a href="https://www.imdb.com/name/nm12717002/" className="block">
+                  <Image 
+                    src="/images/imdb_rectangle_black.png" 
+                    alt="IMDb" 
+                    width={64} // Adjust as needed
+                    height={32} // Adjust as needed
+                    objectFit="cover" 
+                  />
+                </a>
+                <a href="https://www.linkedin.com/in/myriamsound/" className="block">
+                  <Image 
+                    src="/images/LinkedIn-Black-128.png" 
+                    alt="LinkedIn" 
+                    width={32} // Adjust as needed
+                    height={32} // Adjust as needed
+                    objectFit="cover" 
+                  />
+                </a>
+    </div>
+
               <h1 className="pt-8 italic">Some highlights of my work</h1>
           </div>
         </div>

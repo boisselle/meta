@@ -44,7 +44,7 @@ const LogosBox = () => {
         '/images/vice_logo.png',
         '/images/pbs_logo.png',
         '/images/goog_log.png',
-        '/images/Food_Network_Logo.svg',
+        '/images/Food_Network_Logo_2.svg',
         '/images/bloomberg-1.svg',
         '/images/uber_logo.png',
         '/images/berkeley_logo.png',
