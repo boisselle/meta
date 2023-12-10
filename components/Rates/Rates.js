@@ -5,7 +5,7 @@ const Rates = () => {
   return (
     <Card className="space-y-6 shadow-solid-black">
 
-      <h1 className="text-4xl font-bold pb-4 text-center">Rates</h1>
+      <h1 className="text-4xl font-bold pb-2 text-center">Rates</h1>
       <ul>
         <h2 className="text-md font-bold">BASIC BAG - $450/DAY</h2>
         <li>x01 Bag-based multi-track recorder</li>
