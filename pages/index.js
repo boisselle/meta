@@ -106,7 +106,7 @@ export default function Home({ images }) {
           <LogosBox />
         </section>
 
-        <section id="credits" className=" pb-0">
+        <section id="credits" className="">
           {/* <ImageSlider images={images} /> */}
           <Credits />
         </section>
@@ -125,12 +125,13 @@ export default function Home({ images }) {
         </section>
 
         {/* Rates and Gear */}
-        <RateCard className="flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center py-6">
-          <section className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg px-4 p-4">
+        <RateCard className="w-full flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center py-6">
+          <section 
+            className="w-full lg:w-1/2 max-w-2xl lg:max-w-xl 2xl:max-w-2xl py-4">
             <Rates />
           </section>
           <section
-            className="w-full lg:w-1/2 max-w-xl lg:max-w-md 2xl:max-w-lg p-4"
+            className="w-full lg:w-1/2 max-w-2xl lg:max-w-xl 2xl:max-w-2xl lg:py-4"
             id="gear"
           >
             <Gear />
@@ -140,12 +141,12 @@ export default function Home({ images }) {
         {/* <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" /> */}
 
         {/* <div className="mx-auto px-40"> */}
-        <div className="mx-auto w-full max-w-xl lg:max-w-md 2xl:max-w-lg p-4">
+        <div className="mx-auto w-full max-w-2xl lg:max-w-2xl 2xl:max-w-2xl">
           <Terms />
         </div>
 
         {/* <section id="about" className="mx-auto px-32 space-y-4 "> */}
-        <section id="about" className="mx-auto w-full max-w-xl lg:max-w-md 2xl:max-w-lg p-4">
+        <section id="about" className="mx-auto w-full max-w-2xl lg:max-w-2xl; 2xl:max-w-2xl py-4">
           <About />
         </section>
 
