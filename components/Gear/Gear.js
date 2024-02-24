@@ -31,7 +31,7 @@ const Gear = () => {
 
       <ul>
         <h2 className="text-md font-bold">TRANSMITTERS</h2>
-        <li>x08 - Lectrosonics SMQB’s</li>
+        <li>x08 - Lectrosonics SMQV’s</li>
         <li>x02 - Lectrosonics HMA’s (plug)</li>
       </ul>
 
@@ -51,7 +51,7 @@ const Gear = () => {
         <li>x01 - Ambient Pole 4140 (17 Feet)</li>
         <li>x01 - Ambient Quick Pole</li>
         <li>X01 - K-tek Pole</li>
-        <li>X02 Cinela osix Shockmounts</li>
+        <li>X02 - Cinela osix Shockmounts</li>
         <li>
           x01 - Cinela Cosi Wind Protection with shock mounts &amp; protection
         </li>
