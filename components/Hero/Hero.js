@@ -41,7 +41,7 @@ const Hero = ({ imageUrl, children }) => {
               <p className="text-2xl md:text-2xl font-light"> & RECORDIST</p>
             </div>
 
-            <div className="flex justify-center items-center space-x-4 pt-4">
+            <div className="flex justify-center items-center space-x-4 pt-4 mb-4">
                 <a href="https://www.instagram.com/metamorphsound/" className="block" target="_blank">
                   <Image 
                     src="/images/Instagram_Glyph_Black.png" 
@@ -74,8 +74,9 @@ const Hero = ({ imageUrl, children }) => {
 
             {/* Location, proficiencies */}
             <div className="text-center mx-6 max-w-md py-4">
-              <h2>SAN FRANCISCO & LA +</h2>
-              <h2>NYC | MIAMI | MEXICO</h2>
+              <h2 className="mb-2">BASED IN SAN FRANCISCO</h2>
+              <h2>With local availability in</h2>
+              <h2 className="mb-4">LA | San Diego | NYC | Miami | CDMX</h2>
 
               <div className="space-y-1 py-4">
                 <p className="text-xs">GLOBAL ENTRY & TSA PRECHECK READY</p>

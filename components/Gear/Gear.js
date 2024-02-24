@@ -23,25 +23,26 @@ const Gear = () => {
 
       <ul>
         <h2 className="text-md font-bold">LAVALIERS</h2>
-        <li>x04 - DPA 4060 (Brown, Beige)</li>
-        <li>x04 - SANKEN COS11 (black/white)</li>
-        <li>x04 - COUNTRYMAN (black/white)</li>
+        <li>x03 - DPA 4061 (Brown, Beige, White)</li>
+        <li>x02 - DPA 6060 (Black)</li>
+        <li>x02 - DPA 4061 (White, Beige)</li>
+        <li>x01 - COUNTRYMAN (Black)</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">TRANSMITTERS</h2>
-        <li>x04 - Lectrosonics SMWB’s</li>
-        <li>x02 - Lectrosonics HMa’s (plug)</li>
+        <li>x08 - Lectrosonics SMQB’s</li>
+        <li>x02 - Lectrosonics HMA’s (plug)</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">RECEIVERS</h2>
-        <li>x02 - Lectrosonics SRc</li>
+        <li>x02 - Lectrosonics DSR4</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">TIMECODE &amp; SYNC</h2>
-        <li>X04 - Tentacle (camera sync)</li>
+        <li>X05 - Tentacle (camera sync)</li>
         <li>X01 - Ambient Timecode Slate</li>
       </ul>
 
@@ -58,7 +59,7 @@ const Gear = () => {
 
       <ul>
         <li className="text-md font-bold">CLIENT MONITORING (IFB)</li>
-        <li>x01 IFB TX + x04 IFB Headsets</li>
+        <li>x02 IFB TX + x12 IFB Headsets</li>
       </ul>
 
       <ul>
