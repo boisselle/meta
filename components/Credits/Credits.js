@@ -14,41 +14,6 @@ const Credits = () => {
 
       <Card className="mt-6">
           <li>
-            <h1 className="text-xl font-bold pb-4">ART | ASMR | PODCAST - RECORDINGS</h1>
-            <ul className="space-y-2">
-              <li>
-              <a href="https://www.youtube.com/watch?v=h6n4BpZtl6k" className="text-light-blue underline" target="_blank">Work Sounds by Indeed | You Had Me At Black​ 2023</a>
-              </li>
-              <li>
-              La Prairie Switzerland | Art Basel Miami Beach 2021
-              </li>
-              <li>
-
-              </li>
-            </ul>
-          </li>
-        </Card>
-
-        <Card className="mt-6">
-          <li>
-            <h1 className="text-xl font-bold pb-4">TELEVISION</h1>
-            <ul className="space-y-2">
-              <li><a href="https://abc.com/movies-and-specials/the-latin-music-revolution-a-soul-of-a-nation-presentation" className="text-light-blue underline" target="_blank">The Latin Music Revolution: A Soul of a Nation (Linda Ronstadt) | ABC</a></li>
-              <li><a href="https://www.youtube.com/watch?v=DRwAWllDRIQ" className="text-light-blue underline" target="_blank">Whole Story with Anderson Cooper | Without Roe | CNN</a></li>
-              <li><a href="https://www.youtube.com/watch?app=desktop&fbclid=PAAaYtNMKWBzmdtPUk5_RHKXilc3IUezP8S6Ex6gZO7PwkX9QGVtpBQvacU84_aem_ARd37CTHS0nwsBbgezcBehdVO5wpAbRMm4ASGe7C3yPKPtZuR-mNPSw53wPwqRP1FPM&v=ptSFSs3bCps&feature=youtu.be" className="text-light-blue underline" target="_blank">Poisoned: The story of Logan and Kade Webb | ESPN | The Common Bunch</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Kx9s-NBvmAo" className="text-light-blue underline" target="_blank">Wembanyama nutmegging RD | NBA Today | ESPN | The Common Bunch</a></li>
-              <li><a href="https://www.youtube.com/watch?v=MY1vgd8YYaU&t=2s" className="text-light-blue underline" target="_blank">De&apos;Aaron and Curry | NBA Countdown | ESPN | The Common Bunch</a></li>
-              <li>Chef Dynasty House of Fang | Audio Mixer | Critical Content</li>
-              <li>Charlies Angels Behind the Scenes | BTS Audio Mixer | Disney - ET</li>
-              <li>RPM Miami | Audio Mixer | BTS SOUND MIXER | MUN2</li>
-              <li>18 & Over |  Audio Mixer | Various Episodes | MUN2</li>
-              <li>2RSLVJ | Audio Mixer | Various Episodes | MUN2</li>
-            </ul>
-          </li>
-        </Card>
-
-        <Card className="mt-6">
-          <li>
             <h1 className="text-xl font-bold pb-4">DOCUMENTARIES</h1>
             <ul className="space-y-2">
             <li><a href="https://www.youtube.com/watch?v=8jHxdYGqUaA&t=21s" className="text-light-blue underline" target="_blank">Con Madre | Every Mother Counts | on Nat Geo</a></li>
@@ -99,6 +64,63 @@ const Credits = () => {
             </ul>
           </li>
         </Card>
+
+        <Card className="mt-6">
+          <li>
+            <h1 className="text-xl font-bold pb-4">CORPORATE</h1>
+            <ul className="space-y-2">
+              <li>
+                <a href="https://vimeo.com/800399615/1d7abdbce6?share=copy" className="text-light-blue underline" target="_blank">
+                  Genentech MGB | Chosen Few Media
+                </a>
+              </li>
+              <li>Bloomberg | Shutterstuck Studios | Substance Creative</li>
+              <li>Roku | Interviews | Think Out Loud</li>
+              <li>Freeman SF | Charlie Uniform Tango</li>
+              <li>Untitled Tech Explainers | Exposure Labs</li>
+              <li>UBER | John Mcneil Studio</li>
+              <li>WPP Commerce 2020 | Convicts NYC</li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=I25ifBKCtsU" className="text-light-blue underline" target="_blank">
+                  Miami Showcase & Forum | The Real Deal
+                </a>
+                
+              </li>
+              <li>Chase IoT | Magnet Media</li>
+              <li>
+                Credit Suisse Management Board | ESP Media Productions Inc
+              </li>
+              <li>Trayvon Martin Foundation with Jaime Foxx</li>
+              <li>Moroccan Oil | Black Box Productions</li>
+              <li>Kellog School of Management | Odd Machine</li>
+              <li>American Airlines Careers | Paradise Video & Film</li>
+              <li>
+                Mangrove Restoration-Crouch Environmental | Paradise Video &
+                Film
+              </li>
+              <li>Big Brothers Big Sisters Sponsor Campaign | Prime Cinema</li>
+              <li>Snyders-Lance (Pretzels) | Paradise Video & Film</li>
+            </ul>
+          </li>
+        </Card>
+
+        <Card className="mt-6">
+          <li>
+            <h1 className="text-xl font-bold pb-4">TELEVISION</h1>
+            <ul className="space-y-2">
+              <li><a href="https://abc.com/movies-and-specials/the-latin-music-revolution-a-soul-of-a-nation-presentation" className="text-light-blue underline" target="_blank">The Latin Music Revolution: A Soul of a Nation (Linda Ronstadt) | ABC</a></li>
+              <li><a href="https://www.youtube.com/watch?v=DRwAWllDRIQ" className="text-light-blue underline" target="_blank">Whole Story with Anderson Cooper | Without Roe | CNN</a></li>
+              <li><a href="https://www.youtube.com/watch?app=desktop&fbclid=PAAaYtNMKWBzmdtPUk5_RHKXilc3IUezP8S6Ex6gZO7PwkX9QGVtpBQvacU84_aem_ARd37CTHS0nwsBbgezcBehdVO5wpAbRMm4ASGe7C3yPKPtZuR-mNPSw53wPwqRP1FPM&v=ptSFSs3bCps&feature=youtu.be" className="text-light-blue underline" target="_blank">Poisoned: The story of Logan and Kade Webb | ESPN | The Common Bunch</a></li>
+              <li><a href="https://www.youtube.com/watch?v=Kx9s-NBvmAo" className="text-light-blue underline" target="_blank">Wembanyama nutmegging RD | NBA Today | ESPN | The Common Bunch</a></li>
+              <li><a href="https://www.youtube.com/watch?v=MY1vgd8YYaU&t=2s" className="text-light-blue underline" target="_blank">De&apos;Aaron and Curry | NBA Countdown | ESPN | The Common Bunch</a></li>
+              <li>Chef Dynasty House of Fang | Audio Mixer | Critical Content</li>
+              <li>Charlies Angels Behind the Scenes | BTS Audio Mixer | Disney - ET</li>
+              <li>RPM Miami | Audio Mixer | BTS SOUND MIXER | MUN2</li>
+              <li>18 & Over |  Audio Mixer | Various Episodes | MUN2</li>
+              <li>2RSLVJ | Audio Mixer | Various Episodes | MUN2</li>
+            </ul>
+          </li>
+        </Card>        
 
         <Card className="mt-6">
           <li>
@@ -161,45 +183,6 @@ const Credits = () => {
 
         <Card className="mt-6">
           <li>
-            <h1 className="text-xl font-bold pb-4">CORPORATE</h1>
-            <ul className="space-y-2">
-              <li>
-                <a href="https://vimeo.com/800399615/1d7abdbce6?share=copy" className="text-light-blue underline" target="_blank">
-                  Genentech MGB | Chosen Few Media
-                </a>
-              </li>
-              <li>Bloomberg | Shutterstuck Studios | Substance Creative</li>
-              <li>Roku | Interviews | Think Out Loud</li>
-              <li>Freeman SF | Charlie Uniform Tango</li>
-              <li>Untitled Tech Explainers | Exposure Labs</li>
-              <li>UBER | John Mcneil Studio</li>
-              <li>WPP Commerce 2020 | Convicts NYC</li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=I25ifBKCtsU" className="text-light-blue underline" target="_blank">
-                  Miami Showcase & Forum | The Real Deal
-                </a>
-                
-              </li>
-              <li>Chase IoT | Magnet Media</li>
-              <li>
-                Credit Suisse Management Board | ESP Media Productions Inc
-              </li>
-              <li>Trayvon Martin Foundation with Jaime Foxx</li>
-              <li>Moroccan Oil | Black Box Productions</li>
-              <li>Kellog School of Management | Odd Machine</li>
-              <li>American Airlines Careers | Paradise Video & Film</li>
-              <li>
-                Mangrove Restoration-Crouch Environmental | Paradise Video &
-                Film
-              </li>
-              <li>Big Brothers Big Sisters Sponsor Campaign | Prime Cinema</li>
-              <li>Snyders-Lance (Pretzels) | Paradise Video & Film</li>
-            </ul>
-          </li>
-        </Card>
-
-        <Card className="mt-6">
-          <li>
             <h1 className="text-xl font-bold pb-4">COMMERCIALS</h1>
             <ul className="space-y-2">
               <li>
@@ -210,6 +193,23 @@ const Credits = () => {
               <li><a href="https://www.youtube.com/watch?v=OIfBnvA8WyI" className="text-light-blue underline" target="_blank">CLARITIN | Univision</a></li>
               <li>Ford | Indy Eye Productions | Univision</li>
               <li>Kraft Foods | Indy Eye Productions | 4 commercials</li>
+            </ul>
+          </li>
+        </Card>
+
+        <Card className="mt-6">
+          <li>
+            <h1 className="text-xl font-bold pb-4">ART | ASMR | PODCAST - RECORDINGS</h1>
+            <ul className="space-y-2">
+              <li>
+              <a href="https://www.youtube.com/watch?v=h6n4BpZtl6k" className="text-light-blue underline" target="_blank">Work Sounds by Indeed | You Had Me At Black​ 2023</a>
+              </li>
+              <li>
+              La Prairie Switzerland | Art Basel Miami Beach 2021
+              </li>
+              <li>
+
+              </li>
             </ul>
           </li>
         </Card>

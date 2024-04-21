@@ -23,26 +23,28 @@ const Gear = () => {
 
       <ul>
         <h2 className="text-md font-bold">LAVALIERS</h2>
-        <li>x03 - DPA 4061 (Brown, Beige, White)</li>
         <li>x02 - DPA 6060 (Black)</li>
-        <li>x02 - DPA 4061 (White, Beige)</li>
+        <li>x02 - DPA 6061 (White, Beige)</li>
+        <li>x03 - DPA 4061 (Brown, Beige, White)</li>
         <li>x01 - COUNTRYMAN (Black)</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">TRANSMITTERS</h2>
-        <li>x08 - Lectrosonics SMQV’s</li>
+        <li>x04 - Wisycom MTP 61</li>
+        <li>x04 - Lectrosonics SMQV’s</li>
         <li>x02 - Lectrosonics HMA’s (plug)</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">RECEIVERS</h2>
-        <li>x02 - Lectrosonics DSR4</li>
+        <li>x01 - Wisycom MCR54 (4 Channel Receiver)</li>
+        <li>x01 - Lectrosonics DSR4 (4 Channel Receiver)</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">TIMECODE &amp; SYNC</h2>
-        <li>X05 - Tentacle (camera sync)</li>
+        <li>X10 - Tentacle (camera sync)</li>
         <li>X01 - Ambient Timecode Slate</li>
       </ul>
 
