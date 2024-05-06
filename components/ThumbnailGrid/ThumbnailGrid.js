@@ -9,7 +9,7 @@ export default function ThumbnailGrid({ videos }) {
 
 
       {/* Grid Rendering Code */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto"> {/* 2 columns for xs to sm, 4 columns for md and up */}
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto justify-items-center"> {/* 2 columns for xs to sm, 4 columns for md and up */}
         {videos.map((video, index) => (
           <div key={index} className="cursor-pointer">
             <img
