@@ -55,7 +55,7 @@ const Gear = () => {
         <li>X01 - K-tek Pole</li>
         <li>X02 - Cinela osix Shockmounts</li>
         <li>
-          x01 - Cinela Cosi Wind Protection with shock mounts &amp; protection
+          x01 - Cinela Cosi Wind Protection
         </li>
       </ul>
 
