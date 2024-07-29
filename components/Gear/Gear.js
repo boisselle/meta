@@ -44,16 +44,16 @@ const Gear = () => {
 
       <ul>
         <h2 className="text-md font-bold">TIMECODE &amp; SYNC</h2>
-        <li>X10 - Tentacle (camera sync)</li>
-        <li>X01 - Ambient Timecode Slate</li>
+        <li>x10 - Tentacle (camera sync)</li>
+        <li>x01 - Ambient Timecode Slate</li>
       </ul>
 
       <ul>
         <h2 className="text-md font-bold">BOOM POLES &amp; SUSPENSION</h2>
         <li>x01 - Ambient Pole 4140 (17 Feet)</li>
         <li>x01 - Ambient Quick Pole</li>
-        <li>X01 - K-tek Pole</li>
-        <li>X02 - Cinela osix Shockmounts</li>
+        <li>x01 - K-tek Pole</li>
+        <li>x02 - Cinela osix Shockmounts</li>
         <li>
           x01 - Cinela Cosi Wind Protection
         </li>
