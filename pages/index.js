@@ -61,17 +61,17 @@ export default function Home({ images }) {
     {
       id: 'i2QH5a4xrpY',
       thumbnail: 'https://img.youtube.com/vi/i2QH5a4xrpY/maxresdefault.jpg',
-      description: "The Whole Story with Anderson Cooper S1E15 Without Roe - Abortion (2024 Emmy-winning Series)"
+      description: "CNN: The Whole Story with Anderson Cooper S1E15 Without Roe - Abortion (2024 Emmy-winning Series)"
     },
     {
       id: 'MY1vgd8YYaU',
       thumbnail: 'https://img.youtube.com/vi/MY1vgd8YYaU/maxresdefault.jpg',
-      description: "Interview with Steph Curry & De'Aaron Fox"
+      description: "ESPN: Interview with Steph Curry & De'Aaron Fox"
     },
     {
       id: '8jHxdYGqUaA',
       thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg',
-      description: "Indigenous Women Saving Lives"
+      description: "Nat Geo: Indigenous Women Saving Lives"
     },
   ];
 
