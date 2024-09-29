@@ -49,9 +49,9 @@ export default function Home({ images }) {
       description: "Work Sounds"
     },
     {
-      id: 'bbtcUPJ_N4U',
-      thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
-      description: "The Principle of Pleasure"
+      id: '8jHxdYGqUaA',
+      thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg',
+      description: "Nat Geo: Indigenous Women Saving Lives"
     },
     // {
     //   id: 'jb79tpguTRY',
@@ -69,10 +69,10 @@ export default function Home({ images }) {
       description: "ESPN: Interview with Steph Curry & De'Aaron Fox"
     },
     {
-      id: '8jHxdYGqUaA',
-      thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg',
-      description: "Nat Geo: Indigenous Women Saving Lives"
-    },
+      id: 'bbtcUPJ_N4U',
+      thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
+      description: "The Principle of Pleasure"
+    }
   ];
 
   const handleMenuItemClick = (sectionId) => {

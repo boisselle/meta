@@ -18,7 +18,7 @@ export default function ThumbnailGrid({ videos }) {
               className="w-full h-auto transition duration-300 ease-in-out transform hover:scale-105 rounded-md 2xl:max-w-[400px]"
               onClick={() => setSelectedVideo(video)}
             />
-            <p className="text-center text-sm mt-2 italic">{video.description}</p>
+            <p className="text-center text-md font-bold mt-2 italic">{video.description}</p>
           </div>
         ))}
 
