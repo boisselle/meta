@@ -53,10 +53,15 @@ export default function Home({ images }) {
       thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
       description: "The Principle of Pleasure"
     },
+    // {
+    //   id: 'jb79tpguTRY',
+    //   thumbnail: 'https://img.youtube.com/vi/jb79tpguTRY/maxresdefault.jpg',
+    //   description: "Interview with SF Mayor London Breed"
+    // },
     {
-      id: 'jb79tpguTRY',
-      thumbnail: 'https://img.youtube.com/vi/jb79tpguTRY/maxresdefault.jpg',
-      description: "Interview with SF Mayor London Breed"
+      id: 'i2QH5a4xrpY',
+      thumbnail: 'https://img.youtube.com/vi/i2QH5a4xrpY/maxresdefault.jpg',
+      description: "The Whole Story with Anderson Cooper S1E15 Without Roe - Abortion (2024 Emmy-winning Series)"
     },
     {
       id: 'MY1vgd8YYaU',
