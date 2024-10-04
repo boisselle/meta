@@ -60,8 +60,8 @@ export default function Home({ images }) {
     // },
     {
       id: 'i2QH5a4xrpY',
-      thumbnail: 'https://img.youtube.com/vi/i2QH5a4xrpY/maxresdefault.jpg',
-      description: "CNN: The Whole Story with Anderson Cooper S1E15 (2024 Emmy-winning Series)"
+      thumbnail: '/images/anderson_cooper.jpeg',
+      description: "S1E15 (2024 Emmy-winning Series)"
     },
     {
       id: 'MY1vgd8YYaU',
