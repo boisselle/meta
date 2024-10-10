@@ -8,16 +8,16 @@ const Rates = () => {
       <h1 className="text-4xl font-bold pb-2 text-center">Rates</h1>
       <ul>
         <h2 className="text-md font-bold">BASIC BAG - $450/DAY</h2>
-        <li>x01 Bag-based multi-track recorder</li>
+        <li>x01 Sound Devices 833 Recorder</li>
         <li>x01 Boom microphone kit</li>
-        <li>x02 Wireless lavalier mic kits</li>
+        <li>x02 Wireless Transmitters with DPA Lavs</li>
       </ul>
       <ul>
         <h2 className="text-md font-bold">INTERVIEW CART 1 - $590/DAY</h2>
 
-        <li>x01 Bag-based multi-track recorder</li>
+        <li>x01 Sound Devices 833 Recorder</li>
         <li>x01 Boom microphone kit</li>
-        <li>x02 Wireless Lectro Kits with DPA Lavs</li>
+        <li>x02 Wireless Transmitters with DPA Lavs</li>
         <li>x01 Wireless scratch track</li>
         <li>x01 Timecode Camera Sync Box</li>
         <li>x01 Cart, Stand, Expendables</li>
@@ -25,9 +25,9 @@ const Rates = () => {
       <ul>
         <h2 className="text-md font-bold">INTERVIEW CART 2 - $750/DAY</h2>
 
-        <li>x01 Bag-based multi-track recorder</li>
+        <li>x01 Sound Devices 833 Recorder - Cart Based</li>
         <li>x01 Boom microphone kit</li>
-        <li>x02 Wireless Lectro Kits with DPA Lavs</li>
+        <li>x02 Wireless Transmitters with DPA Lavs</li>
         <li>x01 Wireless scratch track</li>
         <li>x01 Timecode Camera Sync Box</li>
         <li>x01 Timecode Smart Slate</li>

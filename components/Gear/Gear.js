@@ -19,6 +19,7 @@ const Gear = () => {
         <li>x02 - Schoeps CMC6 MK41</li>
         <li>x02 - DPA 4070 Micro Shotguns</li>
         <li>x02 - Sennheiser MKH 50’s</li>
+        <li>x02 DPA 4017 Shotguns</li>
       </ul>
 
       <ul>
