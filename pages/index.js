@@ -39,6 +39,21 @@ export default function Home({ images }) {
     // Add your video data here
     // { id: 'youtube_video_id', thumbnail: 'thumbnail_url' },
     {
+      id: 'JrhRsdq9xjA',
+      thumbnail: 'https://img.youtube.com/vi/JrhRsdq9xjA/maxresdefault.jpg',
+      description: "Emily Wines MasterClass"
+    },
+    {
+      id: 'ZWPWY0j321k',
+      thumbnail: 'https://img.youtube.com/vi/ZWPWY0j321k/maxresdefault.jpg',
+      description: "IBM Storage Solutions | Andy Walls"
+    },
+    {
+      id: 'jd-ltW_k_ig',
+      thumbnail: 'https://img.youtube.com/vi/jd-ltW_k_ig/maxresdefault.jpg',
+      description: "Copa 71 | Brandi Chastain"
+    },
+    {
       id: '7ojh4xYoJRU',
       thumbnail: 'https://img.youtube.com/vi/7ojh4xYoJRU/maxresdefault.jpg',
       description: "Woman of Earth"
