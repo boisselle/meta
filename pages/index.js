@@ -54,15 +54,20 @@ export default function Home({ images }) {
       description: "Copa 71 | Brandi Chastain"
     },
     {
+      id: 'Qv3JoouOeEg',
+      thumbnail: 'https://img.youtube.com/vi/Qv3JoouOeEg/maxresdefault.jpg',
+      description: "Esalen Land Healing"
+    },
+    {
       id: '7ojh4xYoJRU',
       thumbnail: 'https://img.youtube.com/vi/7ojh4xYoJRU/maxresdefault.jpg',
       description: "Woman of Earth"
     },
-    {
-      id: 'h6n4BpZtl6k',
-      thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
-      description: "Work Sounds"
-    },
+    // {
+    //   id: 'h6n4BpZtl6k',
+    //   thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
+    //   description: "Work Sounds"
+    // },
     {
       id: '8jHxdYGqUaA',
       thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg',
