@@ -17,7 +17,7 @@ const Credits = () => {
             <h1 className="text-xl font-bold pb-4">DOCUMENTARIES</h1>
             <ul className="space-y-2">
             <li><a href="https://www.youtube.com/watch?v=8jHxdYGqUaA&t=21s" className="text-light-blue underline" target="_blank">Con Madre | Every Mother Counts | on Nat Geo</a></li>
-            <li><a href="https://www.youtube.com/watch?v=8jHxdYGqUaA&t=21s" className="text-light-blue underline" target="_blank">Birth WARS | Janet Jarman - Tonala Films</a></li>
+            <li><a href="https://www.youtube.com/watch?v=aWeQ1SoAPOQ" className="text-light-blue underline" target="_blank">Birth WARS | Janet Jarman - Tonala Films</a></li>
               <li><a href="https://www.youtube.com/watch?v=QHUkvgzNXdw" className="text-light-blue underline" target="_blank">COPA 71 | New Black Films | Rachel Ramsey</a></li>
               
               <li>
@@ -28,7 +28,7 @@ const Credits = () => {
 
               <li><a href="https://www.youtube.com/watch?v=7ojh4xYoJRU&feature=youtu.be" className="text-light-blue underline" target="_blank">Women of the Earth | PBS Terra | Summer Moon Productions</a></li>
               
-              <li><a href="https://www.imdb.com/title/tt28609811/?ref_=nm_flmg_unrel_2_snd" className="text-light-blue underline" target="_blank">Nova | Your Brain: Who&apos;s in Control? | Little Bay Pictures | 2022</a></li>
+              <li><a href="https://www.youtube.com/watch?v=yQ6VOOd73MA" className="text-light-blue underline" target="_blank">Nova | Your Brain: Who&apos;s in Control? | Little Bay Pictures | 2022</a></li>
               <li>
               <a href="https://www.imdb.com/title/tt28609811/?ref_=nm_flmg_unrel_2_snd" className="text-light-blue underline" target="_blank">The Principles of Pleasure - Interview | The Front | on Netflix</a>
                 
