@@ -30,10 +30,9 @@ const Credits = () => {
               
               <li><a href="https://www.youtube.com/watch?v=yQ6VOOd73MA" className="text-light-blue underline" target="_blank">Nova | Your Brain: Who&apos;s in Control? | Little Bay Pictures | 2022</a></li>
               <li>
-              <a href="https://www.imdb.com/title/tt28609811/?ref_=nm_flmg_unrel_2_snd" className="text-light-blue underline" target="_blank">The Principles of Pleasure - Interview | The Front | on Netflix</a>
+              <a href="https://www.youtube.com/watch?v=bbtcUPJ_N4U" className="text-light-blue underline" target="_blank">The Principles of Pleasure - Interview | The Front | on Netflix</a>
                 
               </li>
-              <li>Untitled Luis Valdez Doc | Structure Films</li>
               <li>
                 Untitled BNM Doc - Various | THE OTHRS, LLC - PRESENT/2021
               </li>
@@ -248,24 +247,6 @@ const Credits = () => {
               <li><a href="https://www.youtube.com/watch?v=kiD91S55cyQ" className="text-light-blue underline" target="_blank">Our Young Marriage | Quantus Features</a></li>
               <li><a href="https://www.youtube.com/watch?v=RypZKQPcz3Q" className="text-light-blue underline" target="_blank">GRACE | Michael Macias</a></li>
               <li>Detour | Conuco Films</li>
-            </ul>
-          </li>
-        </Card>
-        <Card className="mt-6">
-          <li>
-            <h1 className="text-xl font-bold pb-6">INDUSTRY QUALIFICATIONS</h1>
-            <ul>
-              <li>
-                Animal Planet, Netflix, NatGeo, Showtime, HBO, Discovery
-                Channel, MTV, VH1, Nickelodeon, The OTHRS, CONVICTS, Golf
-                Digest, UBER, LA PRAIRIE, Stoopid Buddy Stoodios, Pampers,
-                American Airlines, Volkswagen, Critical Content, 51 Minds
-                Entertainment, Crispin Porter & Bugosky, SoAh Films, The Front,
-                Snyder’s Pretzels, Kraft Foods, Plural Entertainment, At It
-                Productions, University of California, Florida International
-                University, Univision, Telemundo, Miami Downtown Development
-                Authority
-              </li>
             </ul>
           </li>
         </Card>
