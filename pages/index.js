@@ -53,10 +53,15 @@ export default function Home({ images }) {
       thumbnail: 'https://img.youtube.com/vi/jd-ltW_k_ig/maxresdefault.jpg',
       description: "Copa 71 | Brandi Chastain"
     },
+    // {
+    //   id: 'Qv3JoouOeEg',
+    //   thumbnail: 'https://img.youtube.com/vi/Qv3JoouOeEg/maxresdefault.jpg',
+    //   description: "Esalen Land Healing"
+    // },
     {
-      id: 'Qv3JoouOeEg',
-      thumbnail: 'https://img.youtube.com/vi/Qv3JoouOeEg/maxresdefault.jpg',
-      description: "Esalen Land Healing"
+      id: 'i2QH5a4xrpY',
+      thumbnail: '/images/anderson_cooper.jpeg',
+      description: "S1E15 (2024 Emmy-winning Series)"
     },
     {
       id: '7ojh4xYoJRU',
@@ -78,10 +83,15 @@ export default function Home({ images }) {
     //   thumbnail: 'https://img.youtube.com/vi/jb79tpguTRY/maxresdefault.jpg',
     //   description: "Interview with SF Mayor London Breed"
     // },
+    // {
+    //   id: 'i2QH5a4xrpY',
+    //   thumbnail: '/images/anderson_cooper.jpeg',
+    //   description: "S1E15 (2024 Emmy-winning Series)"
+    // },
     {
-      id: 'i2QH5a4xrpY',
-      thumbnail: '/images/anderson_cooper.jpeg',
-      description: "S1E15 (2024 Emmy-winning Series)"
+      id: 'Dfgc5Qx2EgY',
+      thumbnail: 'https://img.youtube.com/vi/Dfgc5Qx2EgY/sddefault.jpg',
+      description: "Culture Through Food"
     },
     {
       id: 'MY1vgd8YYaU',
