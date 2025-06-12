@@ -21,9 +21,9 @@ const About = () => {
         </Card>
 
       </div>
-      <div className="leading-7 pb-4">
 
-        {/* <h1 className="text-4xl m-4 font-bold mx-auto">Other Credits</h1> */}
+      {/* <div className="leading-7 pb-4">
+
         <h1 className="w-full text-4xl mb-4 font-bold text-center">OTHER CREDITS</h1>
 
         <Card className="mt-6 text-center leading-7">
@@ -55,7 +55,7 @@ const About = () => {
         </ul>
         </Card>
 
-      </div>
+      </div> */}
     </>
   );
 };
