@@ -151,7 +151,7 @@ export default function Home({ images }) {
           className="w-full mx-auto p-4 bg-slate-900 text-white flex flex-col justify-center items-center"
           id="rates"
         >
-          <h1 className="text-2xl font-extrabold pb-2">LABOR</h1>
+          <h1 className="text-4xl font-bold pb-2">LABOR</h1>
 
           <p className="text-md font-bold">DAY RATE: $850/10 HOUR DAY</p>
           <p className="text-md font-light">OT AFTER 10 HOURS @ $120/HR</p>
