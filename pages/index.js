@@ -102,6 +102,21 @@ export default function Home({ images }) {
       id: 'bbtcUPJ_N4U',
       thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
       description: "The Principle of Pleasure"
+    },
+    {
+      id: 'H_l-j-4n8rs',
+      thumbnail: 'https://img.youtube.com/vi/H_l-j-4n8rs/maxresdefault.jpg',
+      description: "The Twelfth"
+    },
+    {
+      id: 'iGtZMxBemmQ',
+      thumbnail: 'https://img.youtube.com/vi/iGtZMxBemmQ/maxresdefault.jpg',
+      description: "The Furry Detectives"
+    },
+    {
+      id: 'uA8DzfS_csk',
+      thumbnail: 'https://img.youtube.com/vi/uA8DzfS_csk/maxresdefault.jpg',
+      description: "Face to Face with Scott Peterson"
     }
   ];
 
