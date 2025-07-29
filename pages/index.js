@@ -68,11 +68,6 @@ export default function Home({ images }) {
       thumbnail: 'https://img.youtube.com/vi/7ojh4xYoJRU/maxresdefault.jpg',
       description: "Woman of Earth"
     },
-    // {
-    //   id: 'h6n4BpZtl6k',
-    //   thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
-    //   description: "Work Sounds"
-    // },
     {
       id: '8jHxdYGqUaA',
       thumbnail: 'https://img.youtube.com/vi/8jHxdYGqUaA/maxresdefault.jpg',
@@ -117,7 +112,28 @@ export default function Home({ images }) {
       id: 'uA8DzfS_csk',
       thumbnail: 'https://img.youtube.com/vi/uA8DzfS_csk/maxresdefault.jpg',
       description: "Face to Face with Scott Peterson"
+    },
+    {
+      id: 'AeYU8Pj_UyQ',
+      thumbnail: 'https://img.youtube.com/vi/AeYU8Pj_UyQ/maxresdefault.jpg',
+      description: "Malia Cohen: Step Into Your Power"
+    },
+    {
+      id: 'kww1XEa2Ggs',
+      thumbnail: 'https://img.youtube.com/vi/kww1XEa2Ggs/sddefault.jpg',
+      description: "Esalen's Sacred Waters"
+    },
+    {
+      id: 'ptSFSs3bCps',
+      thumbnail: 'https://img.youtube.com/vi/ptSFSs3bCps/maxresdefault.jpg',
+      description: "Poisoned: The Story of Logan and Kade Webb"
     }
+    // {
+    //   id: 'h6n4BpZtl6k',
+    //   thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
+    //   description: "Work Sounds"
+    // },
+
   ];
 
   const handleMenuItemClick = (sectionId) => {
@@ -156,10 +172,9 @@ export default function Home({ images }) {
           <LogosBox />
         </section>
 
-        <section id="credits" className="">
-          {/* <ImageSlider images={images} /> */}
+        {/* <section id="credits" className="">
           <Credits />
-        </section>
+        </section> */}
 
         {/* Labor banner */}
         <section
