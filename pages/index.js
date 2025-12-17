@@ -146,7 +146,86 @@ export default function Home({ images }) {
   };
 
   return (
-    <>
+    // <>
+    //   <header
+    //     className={`w-full fixed top-0 z-50 bg-white transition-transform duration-300 ease-in-out ${
+    //       scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
+    //     }`}
+    //   >
+    //     <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
+    //   </header>
+    //   <main className="w-full mx-auto bg-white">
+    //     <section id="hero" className="">
+    //       {/* <Hero imageUrl="/images/frosted_glass.png" /> */}
+    //       <Hero />
+    //     </section>
+
+
+
+    //     {/* <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" /> */}
+
+    //     <section className="bg-slate-900 py-6">
+    //       <ThumbnailGrid videos={videos} />
+    //     </section>
+
+    //     <section className="p-6">
+    //       <LogosBox />
+    //     </section>
+
+    //     {/* <section id="credits" className="">
+    //       <Credits />
+    //     </section> */}
+
+    //     {/* Labor banner */}
+    //     <section
+    //       className="w-full mx-auto p-4 bg-slate-900 text-white flex flex-col justify-center items-center"
+    //       id="rates"
+    //     >
+    //       <h1 className="text-4xl font-bold pb-2">LABOR</h1>
+
+    //       <p className="text-md font-bold">DAY RATE: $850/10 HOUR DAY</p>
+    //       <p className="text-md font-light">OT AFTER 10 HOURS @ $120/HR</p>
+    //       <p className="text-sm font-light p-1">GET IN TOUCH ABOUT 12 HOUR DAYS</p>
+          
+    //     </section>
+
+    //     {/* Rates and Gear */}
+    //     <RateCard className="w-full flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center py-6">
+    //       <section 
+    //         className="w-full lg:w-1/2 max-w-2xl lg:max-w-xl 2xl:max-w-2xl py-4">
+    //         <Rates />
+    //       </section>
+    //       <section
+    //         className="w-full lg:w-1/2 max-w-2xl lg:max-w-xl 2xl:max-w-2xl lg:py-4"
+    //         id="gear"
+    //       >
+    //         <Gear />
+    //       </section>
+    //     </RateCard>
+
+    //     {/* <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" /> */}
+
+    //     {/* <div className="mx-auto px-40"> */}
+    //     <div className="mx-auto w-full max-w-2xl lg:max-w-2xl 2xl:max-w-2xl">
+    //       <Terms />
+    //     </div>
+
+    //     {/* <section id="about" className="mx-auto px-32 space-y-4 "> */}
+    //     <section id="about" className="mx-auto w-full max-w-2xl lg:max-w-2xl; 2xl:max-w-2xl py-4">
+    //       <About />
+    //     </section>
+
+    //     <Footer />
+
+    //   </main>
+    // </>
+      <>
+      {/* 2. Place the Head component here */}
+      <Head>
+        <title>Myriam Boisselle | San Francisco Sound Mixer & Recordist</title>
+        <meta name="description" content="Myriam Boisselle | San Francisco Sound Mixer & Recordist" />
+      </Head>
+
       <header
         className={`w-full fixed top-0 z-50 bg-white transition-transform duration-300 ease-in-out ${
           scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
@@ -154,15 +233,11 @@ export default function Home({ images }) {
       >
         <HamburgerMenu onMenuItemClick={handleMenuItemClick} />
       </header>
+
       <main className="w-full mx-auto bg-white">
         <section id="hero" className="">
-          {/* <Hero imageUrl="/images/frosted_glass.png" /> */}
           <Hero />
         </section>
-
-
-
-        {/* <BackgroundGradient color1="from-zinc-100" color2="to-sky-100" /> */}
 
         <section className="bg-slate-900 py-6">
           <ThumbnailGrid videos={videos} />
@@ -172,27 +247,18 @@ export default function Home({ images }) {
           <LogosBox />
         </section>
 
-        {/* <section id="credits" className="">
-          <Credits />
-        </section> */}
-
-        {/* Labor banner */}
         <section
           className="w-full mx-auto p-4 bg-slate-900 text-white flex flex-col justify-center items-center"
           id="rates"
         >
           <h1 className="text-4xl font-bold pb-2">LABOR</h1>
-
           <p className="text-md font-bold">DAY RATE: $850/10 HOUR DAY</p>
           <p className="text-md font-light">OT AFTER 10 HOURS @ $120/HR</p>
           <p className="text-sm font-light p-1">GET IN TOUCH ABOUT 12 HOUR DAYS</p>
-          
         </section>
 
-        {/* Rates and Gear */}
         <RateCard className="w-full flex flex-wrap lg:flex-no-wrap justify-start justify-center lg:justify-center py-6">
-          <section 
-            className="w-full lg:w-1/2 max-w-2xl lg:max-w-xl 2xl:max-w-2xl py-4">
+          <section className="w-full lg:w-1/2 max-w-2xl lg:max-w-xl 2xl:max-w-2xl py-4">
             <Rates />
           </section>
           <section
@@ -203,20 +269,15 @@ export default function Home({ images }) {
           </section>
         </RateCard>
 
-        {/* <BackgroundGradient color1="from-sky-100" color2="to-zinc-100" /> */}
-
-        {/* <div className="mx-auto px-40"> */}
         <div className="mx-auto w-full max-w-2xl lg:max-w-2xl 2xl:max-w-2xl">
           <Terms />
         </div>
 
-        {/* <section id="about" className="mx-auto px-32 space-y-4 "> */}
         <section id="about" className="mx-auto w-full max-w-2xl lg:max-w-2xl; 2xl:max-w-2xl py-4">
           <About />
         </section>
 
         <Footer />
-
       </main>
     </>
   );

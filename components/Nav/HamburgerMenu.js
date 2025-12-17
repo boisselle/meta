@@ -26,89 +26,148 @@ const HamburgerMenu = () => {
   };
 
   const MenuItem = ({ text, sectionId }) => (
-    <a
+    <button
       onClick={() => scrollTo(sectionId)}
-      className={`text-2xl hover:text-cyan-200 cursor-pointer ${
+      // Ensure the button looks like a link but behaves like a button
+      className={`text-2xl hover:text-cyan-200 cursor-pointer transition-colors focus:outline-none focus:ring-2 focus:ring-cyan-400 rounded px-2 ${
         isMobile && isOpen ? "text-white" : "text-black"
       }`}
     >
       {text}
-    </a>
+    </button>
   );
 
   return (
+    // <div className="relative w-full px-16 py-6">
+    //   {isMobile ? (
+    //     // Hamburger menu for mobile
+    //     <>
+    //       <Logo />
+    //       <button
+    //         onClick={() => setIsOpen(!isOpen)}
+    //         // 1. Added aria-label so screen readers don't just say "button"
+    //         // 2. Added aria-expanded to communicate the state of the menu
+    //         aria-label={isOpen ? "Close menu" : "Open menu"}
+    //         aria-expanded={isOpen}
+    //         // 3. Restored focus ring for keyboard navigation (Essential for A11y)
+    //         className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg absolute top-0 right-0 mt-4 mr-4 z-20 focus:outline-none focus:ring-2 focus:ring-slate-900"
+    //       >
+    //         {/* Hamburger Lines */}
+    //         {/* 4. Added aria-hidden to the lines because they are purely decorative */}
+    //         <div
+    //           aria-hidden="true"
+    //           className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
+    //             isOpen ? "rotate-45 bg-white" : ""
+    //           }`}
+    //         ></div>
+    //         <div
+    //           aria-hidden="true"
+    //           className={`hamburger-menu w-6 h-0.5 bg-black my-1 transition duration-200 ease-in-out ${
+    //             isOpen ? "opacity-0" : "opacity-100"
+    //           }`}
+    //         ></div>
+    //         <div
+    //           aria-hidden="true"
+    //           className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
+    //             isOpen ? "-rotate-45 mt-[-12px] bg-white" : ""
+    //           }`}
+    //         ></div>
+    //       </button>
+          
+    //       {isOpen && (
+    //             <nav 
+    //               // aria-label helps users distinguish this from other navs (like the footer)
+    //               aria-label="Mobile navigation"
+    //               className="bg-black fixed inset-0 w-full h-full z-10"
+    //               style={{ height: "100vh" }}
+    //             >
+    //               <ul className="flex flex-col items-center justify-center space-y-12 h-full w-full list-none p-0 m-0">
+    //                 {/* <li><MenuItem text="Credits" sectionId="credits" /></li> */}
+    //                 <li><MenuItem text="Gear" sectionId="gear" /></li>
+    //                 <li><MenuItem text="Rates" sectionId="rates" /></li>
+    //                 <li><MenuItem text="About" sectionId="about" /></li>
+    //               </ul>
+    //             </nav>
+    //           )}
+              
+
+    //           <nav aria-label="Main navigation" className="flex items-center justify-end space-x-8 px-6">
+    //             <ul className="flex items-center space-x-8 list-none">
+    //               {/* <li><MenuItem text="Credits" sectionId="credits" /></li> */}
+    //               <li><MenuItem text="Gear & Rates" sectionId="rates" /></li>
+    //               <li><MenuItem text="About" sectionId="about" /></li>
+    //             </ul>
+    //           </nav>
+            
+    //     </>
+    //   ) : (
+    //     // Menu items for larger screens
+    //     <>
+    //       {/* <Logo /> */}
+    //       <div className="float-left">
+    //         <Logo />
+    //       </div>
+
+    //       <div className="flex items-center justify-end space-x-8 px-6">
+    //         {/* <MenuItem text="Credits" sectionId="credits" /> */}
+    //         <MenuItem text="Gear & Rates" sectionId="rates" />
+    //         <MenuItem text="About" sectionId="about" />
+    //       </div>
+    //     </>
+    //   )}
+    // </div>
     <div className="relative w-full px-16 py-6">
-      {isMobile ? (
-        // Hamburger menu for mobile
-        <>
-          {/* <p>METAMORPH SOUND</p> */}
-          <Logo />
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            // className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 absolute top-0 right-0 mt-4 mr-4 z-20"
-            className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg absolute top-0 right-0 mt-4 mr-4 z-20"
+  {isMobile ? (
+    // --- MOBILE VIEW ---
+    <>
+      <Logo />
+      
+      {/* Hamburger Button */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label={isOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isOpen}
+          className="flex flex-col items-center justify-center w-12 h-12 p-1 rounded-lg absolute top-0 right-0 mt-4 mr-4 z-20 focus:outline-none focus:ring-2 focus:ring-slate-900"
+        >
+          <div aria-hidden="true" className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${isOpen ? "rotate-45 bg-white" : ""}`}></div>
+          <div aria-hidden="true" className={`hamburger-menu w-6 h-0.5 bg-black my-1 transition duration-200 ease-in-out ${isOpen ? "opacity-0" : "opacity-100"}`}></div>
+          <div aria-hidden="true" className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${isOpen ? "-rotate-45 mt-[-12px] bg-white" : ""}`}></div>
+        </button>
+        
+        {/* ONLY this nav should exist for mobile. 
+            The "Main navigation" nav you had below this was causing the duplicate links.
+        */}
+        {isOpen && (
+          <nav 
+            aria-label="Mobile navigation"
+            className="bg-black fixed inset-0 w-full h-full z-10"
+            style={{ height: "100vh" }}
           >
-            {/* Hamburger Lines */}
-            <div
-              className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
-                isOpen ? "rotate-45 bg-white" : ""
-              }`}
-            ></div>
-            <div
-              className={`hamburger-menu w-6 h-0.5 bg-black my-1 transition duration-200 ease-in-out ${
-                isOpen ? "opacity-0" : "opacity-100"
-              }`}
-            ></div>
-            <div
-              className={`hamburger-menu w-6 h-0.5 bg-black transition duration-200 ease-in-out transform origin-center ${
-                isOpen ? "-rotate-45 mt-[-12px] bg-white" : ""
-              }`}
-            ></div>
+            <ul className="flex flex-col items-center justify-center space-y-12 h-full w-full list-none p-0 m-0">
+              <li><MenuItem text="Gear" sectionId="gear" /></li>
+              <li><MenuItem text="Rates" sectionId="rates" /></li>
+              <li><MenuItem text="About" sectionId="about" /></li>
+            </ul>
+          </nav>
+        )}
+      </>
+    ) : (
+      // --- DESKTOP VIEW ---
+      <>
+        <div className="float-left">
+          <Logo />
+        </div>
 
-          </button>
-          {isOpen && (
-            <>
-              <div
-                className="bg-black top inset-0 w-full h-full flex flex-col items-center justify-center space-y-12 z-10"
-                //   style={{ margin: "auto", top: 0, left: 0, right: 0, bottom: 0 }}
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  height: "100vh",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                {/* <div className="bg-white bg-opacity-50 backdrop-blur-md backdrop-brightness-125 p-4 fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center space-y-4 z-10"> */}
-                <MenuItem text="Credits" sectionId="credits" />
-                <MenuItem text="Gear" sectionId="gear" />
-                <MenuItem text="Rates" sectionId="rates" />
-                <MenuItem text="About" sectionId="about" />
-              </div>
-            </>
-          )}
-        </>
-      ) : (
-        // Menu items for larger screens
-        <>
-          {/* <Logo /> */}
-          <div className="float-left">
-            <Logo />
-          </div>
-
-          <div className="flex items-center justify-end space-x-8 px-6">
-            <MenuItem text="Credits" sectionId="credits" />
-            <MenuItem text="Gear & Rates" sectionId="rates" />
-            {/* <MenuItem text="Rates" sectionId="rates" /> */}
-            <MenuItem text="About" sectionId="about" />
-          </div>
-        </>
-      )}
-    </div>
+        <nav aria-label="Main navigation" className="flex items-center justify-end space-x-8 px-6">
+          <ul className="flex items-center space-x-8 list-none">
+            <li><MenuItem text="Gear" sectionId="gear" /></li>
+            <li><MenuItem text="Rates" sectionId="rates" /></li>
+            <li><MenuItem text="About" sectionId="about" /></li>
+          </ul>
+        </nav>
+      </>
+    )}
+  </div>
   );
 };
 

@@ -42,33 +42,54 @@ const Hero = ({ imageUrl, children }) => {
             </div>
 
             <div className="flex justify-center items-center space-x-4 pt-4 mb-4">
-                <a href="https://www.instagram.com/metamorphsound/" className="block" target="_blank">
-                  <Image 
-                    src="/images/Instagram_Glyph_Black.png" 
-                    alt="Instagram" 
-                    width={24} // Adjust as needed
-                    height={24} // Adjust as needed
-                    objectFit="cover" 
-                  />
-                </a>
-                <a href="https://www.imdb.com/name/nm12717002/" className="block" target="_blank">
+              <a 
+                href="https://www.instagram.com/metamorphsound/" 
+                className="block" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Metamorph Sound on Instagram (opens in new tab)"
+              >
+                <Image 
+                  src="/images/Instagram_Glyph_Black.png" 
+                  alt="" 
+                  width={24}
+                  height={24}
+                  objectFit="cover"
+                  aria-hidden="true"
+                />
+              </a>
+              <a 
+                  href="https://www.imdb.com/name/nm12717002/" 
+                  className="block" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View profile on IMDb (opens in new tab)"
+                >
                   <Image 
                     src="/images/imdb_rectangle_black.png" 
-                    alt="IMDb" 
-                    width={56} // Adjust as needed
-                    height={24} // Adjust as needed
-                    objectFit="cover" 
+                    alt="" 
+                    width={56}
+                    height={24}
+                    objectFit="cover"
+                    aria-hidden="true"
                   />
                 </a>
-                <a href="https://www.linkedin.com/in/myriamsound/" className="block" target="_blank">
-                  <Image 
-                    src="/images/LinkedIn-Black-128.png" 
-                    alt="LinkedIn" 
-                    width={24} // Adjust as needed
-                    height={24} // Adjust as needed
-                    objectFit="cover" 
-                  />
-                </a>
+                <a 
+                    href="https://www.linkedin.com/in/myriamsound/" 
+                    className="block" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Connect on LinkedIn (opens in new tab)"
+                  >
+                    <Image 
+                      src="/images/LinkedIn-Black-128.png" 
+                      alt="" 
+                      width={24}
+                      height={24}
+                      objectFit="cover"
+                      aria-hidden="true"
+                    />
+                  </a>
               </div>
 
 
@@ -88,10 +109,21 @@ const Hero = ({ imageUrl, children }) => {
               </p>
 
               <div></div>
-              <a href="tel:+13055025390" className="text-light-blue hover:text-blue-600 font-bold">305-502-5390</a>
-              <br></br>
-              <a href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" className="text-light-blue hover:text-blue-700 font-bold">metamorphsound@gmail.com</a>
-
+              <a 
+                href="tel:+13055025390" 
+                className="text-light-blue hover:text-blue-600 font-bold"
+                aria-label="Call 305-502-5390"
+              >
+                305-502-5390
+              </a>
+              <br />
+              <a 
+                href="mailto:metamorphsound@gmail.com?subject=Interested in working with you!" 
+                className="text-light-blue hover:text-blue-700 font-bold"
+                aria-label="Send email to metamorphsound@gmail.com"
+              >
+                metamorphsound@gmail.com
+              </a>
               <h1 className="pt-8 italic">Some highlights of my work</h1>
           </div>
         </div>
