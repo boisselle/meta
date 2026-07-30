@@ -39,9 +39,9 @@ export default function Home({ images }) {
     // Add your video data here
     // { id: 'youtube_video_id', thumbnail: 'thumbnail_url' },
     {
-      id:'bBCNF2VKPLM',
-      thumbnail: 'https://img.youtube.com/vi/bBCNF2VKPLM/maxresdefault.jpg',
-      description: 'Hannah Mayree: Tiny Desk Contest 2025'
+      id:'sVPkd-Z5ao8',
+      thumbnail: 'https://img.youtube.com/vi/sVPkd-Z5ao8/maxresdefault.jpg',
+      description: 'MasterClass with Dr. Anna Lembke'
     },
     {
       id: 'KBjtRJSblMU',
