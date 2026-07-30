@@ -38,6 +38,7 @@ export default function Home({ images }) {
   const videos = [
     // Add your video data here
     // { id: 'youtube_video_id', thumbnail: 'thumbnail_url' },
+    // ROW 1
     {
       id:'sVPkd-Z5ao8',
       thumbnail: 'https://img.youtube.com/vi/sVPkd-Z5ao8/maxresdefault.jpg',
@@ -49,6 +50,12 @@ export default function Home({ images }) {
       description: 'Resilience at Y Combinator with Paul Graham'
     },
     {
+      id: 'TOuSpP2JOXc',
+      thumbnail: 'https://img.youtube.com/vi/TOuSpP2JOXc/maxresdefault.jpg',
+      description: 'Super Nintendo World Orlando'
+    },
+    // ROW 2
+    {
       id: '573nK74VJac',
       thumbnail: 'https://img.youtube.com/vi/573nK74VJac/maxresdefault.jpg',
       description: 'Sliving with Android l Paris Hilton'
@@ -57,11 +64,6 @@ export default function Home({ images }) {
       id: 'JrhRsdq9xjA',
       thumbnail: 'https://img.youtube.com/vi/JrhRsdq9xjA/maxresdefault.jpg',
       description: "Emily Wines MasterClass"
-    },
-    {
-      id: 'ZWPWY0j321k',
-      thumbnail: 'https://img.youtube.com/vi/ZWPWY0j321k/maxresdefault.jpg',
-      description: "IBM Storage Solutions | Andy Walls"
     },
     {
       id: 'jd-ltW_k_ig',
@@ -73,6 +75,7 @@ export default function Home({ images }) {
     //   thumbnail: 'https://img.youtube.com/vi/Qv3JoouOeEg/maxresdefault.jpg',
     //   description: "Esalen Land Healing"
     // },
+    // ROW 3
     {
       id: 'i2QH5a4xrpY',
       thumbnail: '/images/anderson_cooper.jpeg',
@@ -98,6 +101,7 @@ export default function Home({ images }) {
     //   thumbnail: '/images/anderson_cooper.jpeg',
     //   description: "S1E15 (2024 Emmy-winning Series)"
     // },
+    // ROW 4
     {
       id: 'Dfgc5Qx2EgY',
       thumbnail: 'https://img.youtube.com/vi/Dfgc5Qx2EgY/sddefault.jpg',
@@ -113,6 +117,7 @@ export default function Home({ images }) {
       thumbnail: 'https://img.youtube.com/vi/bbtcUPJ_N4U/maxresdefault.jpg',
       description: "The Principle of Pleasure"
     },
+    // ROW 5
     {
       id: 'H_l-j-4n8rs',
       thumbnail: 'https://img.youtube.com/vi/H_l-j-4n8rs/maxresdefault.jpg',
@@ -128,6 +133,7 @@ export default function Home({ images }) {
       thumbnail: 'https://img.youtube.com/vi/uA8DzfS_csk/maxresdefault.jpg',
       description: "Face to Face with Scott Peterson"
     },
+    // ROW 6
     {
       id: 'AeYU8Pj_UyQ',
       thumbnail: 'https://img.youtube.com/vi/AeYU8Pj_UyQ/maxresdefault.jpg',
@@ -142,6 +148,12 @@ export default function Home({ images }) {
       id: 'ptSFSs3bCps',
       thumbnail: 'https://img.youtube.com/vi/ptSFSs3bCps/maxresdefault.jpg',
       description: "Poisoned: The Story of Logan and Kade Webb"
+    },
+    // ROW 7
+    {
+      id: 'ZWPWY0j321k',
+      thumbnail: 'https://img.youtube.com/vi/ZWPWY0j321k/maxresdefault.jpg',
+      description: "IBM Storage Solutions | Andy Walls"
     }
     // {
     //   id: 'h6n4BpZtl6k',
