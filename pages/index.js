@@ -108,9 +108,9 @@ export default function Home({ images }) {
       description: "Culture Through Food"
     },
     {
-      id: 'MY1vgd8YYaU',
-      thumbnail: 'https://img.youtube.com/vi/MY1vgd8YYaU/maxresdefault.jpg',
-      description: "ESPN: Interview with Steph Curry & De'Aaron Fox"
+      id: 'G8pSadypQm4',
+      thumbnail: 'https://img.youtube.com/vi/G8pSadypQm4/maxresdefault.jpg',
+      description: "Nintendo Scavenger Hunt San Francisco"
     },
     {
       id: 'bbtcUPJ_N4U',
@@ -154,12 +154,12 @@ export default function Home({ images }) {
       id: 'ZWPWY0j321k',
       thumbnail: 'https://img.youtube.com/vi/ZWPWY0j321k/maxresdefault.jpg',
       description: "IBM Storage Solutions | Andy Walls"
+    },
+    {
+      id: 'MY1vgd8YYaU',
+      thumbnail: 'https://img.youtube.com/vi/MY1vgd8YYaU/maxresdefault.jpg',
+      description: "ESPN: Interview with Steph Curry & De'Aaron Fox"
     }
-    // {
-    //   id: 'h6n4BpZtl6k',
-    //   thumbnail: 'https://img.youtube.com/vi/h6n4BpZtl6k/maxresdefault.jpg',
-    //   description: "Work Sounds"
-    // },
 
   ];
 
