@@ -53,6 +53,7 @@
 
 import React, { useState } from 'react';
 import LogosBox from '../LogosBox/LogosBox';
+import Image from "next/image"
 
 export default function ThumbnailGrid({ videos }) {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -63,16 +64,21 @@ export default function ThumbnailGrid({ videos }) {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto justify-items-center">
         {videos.map((video, index) => (
           <div key={index} className="cursor-pointer w-full">
-            {/* Wrapper div with fixed aspect ratio */}
-            <div className="relative w-full" style={{ paddingTop: '56.25%' /* 9/16 * 100 for 16:9 */ }}>
-              <img
+            {/* 16:9 box – fills the entire column */}
+            <div className="relative w-full aspect-video">  {/* or keep the paddingTop style if you prefer */}
+              <Image
                 src={video.thumbnail}
-                alt="Thumbnail"
-                className="absolute top-0 left-0 w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-105 rounded-md 2xl:max-w-[400px]"
+                alt={video.description || "Thumbnail"}
+                fill
+                className="object-cover transition duration-300 ease-in-out hover:scale-105 rounded-md"
+                sizes="(max-width: 768px) 50vw, 33vw"
                 onClick={() => setSelectedVideo(video)}
               />
             </div>
-            <p className="text-center text-md font-bold mt-2 italic">{video.description}</p>
+
+            <p className="text-center text-md font-bold mt-2 italic">
+              {video.description}
+            </p>
           </div>
         ))}
 

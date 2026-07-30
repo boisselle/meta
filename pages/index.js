@@ -39,6 +39,21 @@ export default function Home({ images }) {
     // Add your video data here
     // { id: 'youtube_video_id', thumbnail: 'thumbnail_url' },
     {
+      id:'bBCNF2VKPLM',
+      thumbnail: 'https://img.youtube.com/vi/bBCNF2VKPLM/maxresdefault.jpg',
+      description: 'Hannah Mayree: Tiny Desk Contest 2025'
+    },
+    {
+      id: 'KBjtRJSblMU',
+      thumbnail: 'https://img.youtube.com/vi/KBjtRJSblMU/maxresdefault.jpg',
+      description: 'Resilience at Y Combinator with Paul Graham'
+    },
+    {
+      id: '573nK74VJac',
+      thumbnail: 'https://img.youtube.com/vi/573nK74VJac/maxresdefault.jpg',
+      description: 'Sliving with Android l Paris Hilton'
+    },
+    {
       id: 'JrhRsdq9xjA',
       thumbnail: 'https://img.youtube.com/vi/JrhRsdq9xjA/maxresdefault.jpg',
       description: "Emily Wines MasterClass"
